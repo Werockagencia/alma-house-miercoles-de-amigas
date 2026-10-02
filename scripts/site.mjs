@@ -52,13 +52,23 @@ const web = async (src, name, flatten) => {
   return `web/${name}`;
 };
 
+// JPG en tamaño completo para descargar una por una (calidad alta, listo para Instagram)
+await mkdir(path.join(ROOT, 'descargas'), { recursive: true });
+const full = async (src, name) => {
+  await sharp(src).flatten({ background: '#F7EFE7' }).jpeg({ quality: 93, chromaSubsampling: '4:4:4', mozjpeg: true }).toFile(path.join(ROOT, 'descargas', name));
+  return `descargas/${name}`;
+};
+
 const pieces = [];
 for (const p of plan) {
   const dir = path.join(ROOT, 'piezas', p.dir);
   const { meta, sections } = parseCopy(await readFile(path.join(dir, 'copy.md'), 'utf8'));
   const post = await web(path.join(dir, 'export', `${p.n}-post.png`), `${p.n}-post.jpg`);
   const story = await web(path.join(dir, 'export', `${p.n}-historia.png`), `${p.n}-historia.jpg`);
-  pieces.push({ ...p, meta, sections, post, story, postPng: `piezas/${p.dir}/export/${p.n}-post.png`, storyPng: `piezas/${p.dir}/export/${p.n}-historia.png` });
+  const slug = p.dir.replace(/^\d+-/, '');
+  const postJpg = await full(path.join(dir, 'export', `${p.n}-post.png`), `alma-house-miercoles-${p.n}-${slug}-post.jpg`);
+  const storyJpg = await full(path.join(dir, 'export', `${p.n}-historia.png`), `alma-house-miercoles-${p.n}-${slug}-historia.jpg`);
+  pieces.push({ ...p, meta, sections, post, story, postJpg, storyJpg, postPng: `piezas/${p.dir}/export/${p.n}-post.png`, storyPng: `piezas/${p.dir}/export/${p.n}-historia.png` });
 }
 
 // ---------- CAPTIONS.md ----------
@@ -78,8 +88,8 @@ const pieceHtml = p => {
     ${p.meta['Rol en la campaña'] ? `<p class="role">${inline(p.meta['Rol en la campaña'].replace(/^./, c => c.toUpperCase()))}</p>` : ''}
   </header>
   <div class="duo">
-    <figure><a href="${p.postPng}" target="_blank"><img src="${p.post}" alt="" loading="lazy"></a><figcaption>Post · 1080×1350</figcaption></figure>
-    <figure class="st"><a href="${p.storyPng}" target="_blank"><img src="${p.story}" alt="" loading="lazy"></a><figcaption>Historia · 1080×1920</figcaption></figure>
+    <figure><a href="${p.postJpg}" target="_blank"><img src="${p.post}" alt="" loading="lazy"></a><figcaption><span>Post · 1080×1350</span><a class="dl" href="${p.postJpg}" download>↓ Descargar JPG</a></figcaption></figure>
+    <figure class="st"><a href="${p.storyJpg}" target="_blank"><img src="${p.story}" alt="" loading="lazy"></a><figcaption><span>Historia · 1080×1920</span><a class="dl" href="${p.storyJpg}" download>↓ Descargar JPG</a></figcaption></figure>
     <div class="capbox">
       <div class="cap-h"><span class="label">Caption</span><button class="copy" data-copy="cap${p.n}">Copiar caption</button></div>
       <div class="cap" id="cap${p.n}">${esc(p.sections['Caption'] ?? '')}\n\n${esc(p.sections['Hashtags'] ?? '')}</div>
@@ -150,7 +160,10 @@ img{display:block;max-width:100%}
 .role{grid-column:1/-1;color:var(--ink2);max-width:80ch;margin-top:16px;font-size:16.5px}
 .duo{display:grid;grid-template-columns:1.25fr .78fr 1.2fr;gap:22px;margin-top:30px;align-items:start}
 .duo figure img{width:100%;border-radius:3px;box-shadow:0 14px 40px rgba(50,40,30,.13)}
-.duo figcaption{font-size:13px;color:#7d6550;font-weight:600;margin-top:8px;letter-spacing:.04em}
+.duo figcaption{font-size:13px;color:#7d6550;font-weight:600;margin-top:10px;letter-spacing:.04em;display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.dl{display:inline-block;background:var(--brown);color:var(--cream);text-decoration:none;border-radius:999px;padding:10px 16px;font-family:'Uncage',sans-serif;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:650}
+.dl:hover{background:var(--forest)}
+.dl:focus-visible{outline:2px solid var(--brown);outline-offset:3px}
 .capbox{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:24px 26px}
 .cap-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;color:var(--bakery)}
 .cap{white-space:pre-line;font-size:16px;line-height:1.62;color:var(--ink)}
@@ -240,7 +253,7 @@ code{font-size:12.5px;background:rgba(153,71,29,.08);padding:1px 5px;border-radi
       <div>
         <p class="label">Archivos</p>
         <h4>Todo listo para subir</h4>
-        <p>Cada imagen abre su PNG final (post 1080×1350 · historia 1080×1920).</p>
+        <p>Cada imagen tiene su botón para descargar el JPG en tamaño completo (post 1080×1350 · historia 1080×1920).</p>
         <a class="btn" href="${REPO}/blob/main/CAPTIONS.md" target="_blank">Todos los captions</a>
         <a class="btn" href="${REPO}/archive/refs/heads/main.zip">Descargar todo (.zip)</a>
       </div>
