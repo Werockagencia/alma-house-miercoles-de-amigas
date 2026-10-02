@@ -22,3 +22,24 @@
 
 /* Zona segura de historias: nada importante en los 250 px de arriba ni en los 420 de abajo */
 .story .safe-top { top: 250px !important; }
+
+/* ---------- Legibilidad (se lee en el celular) ----------
+   Uncage más grueso y grande; Aurora mediana con un trazo sutil (la serif tiene un solo
+   grosor y en tamaños pequeños se adelgaza); textos de apoyo más oscuros y con más peso. */
+.label { font-weight: 650; font-size: 22px; letter-spacing: .3em; }
+.label.sm { font-weight: 650; font-size: 18px; letter-spacing: .26em; }
+.body { font-weight: 500; }
+.fine { font-size: 23px; font-weight: 500; opacity: 1; }
+.sub, .ask, .intro, .who, li .serif, .pair .serif, .cta p.serif { -webkit-text-stroke: .7px currentColor; }
+h1.serif, h2.serif, .big { -webkit-text-stroke: .35px currentColor; }
+.seal .curve { font-weight: 650; }
+.seal .sub { font-weight: 650; opacity: 1; }
+
+/* Sello sólido: disco en el café de los botones con letra crema (máximo contraste).
+   Sobre piezas oscuras se invierte con .seal.crema (disco crema, letra café). */
+.seal { color: var(--white-beach) !important; }
+.seal .disc { fill: var(--hot-brown); }
+.seal svg { filter: drop-shadow(0 10px 24px rgba(42,31,26,.28)); background: none !important; }
+.seal .ring { opacity: .7; stroke-width: 1.4; }
+.seal.crema { color: var(--hot-brown) !important; }
+.seal.crema .disc { fill: var(--white-beach); }

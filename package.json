@@ -2,13 +2,12 @@
   "name": "alma-house-miercoles-de-amigas",
   "private": true,
   "type": "module",
-  "description": "Alma House — Miércoles de Amigas: promoción de los miércoles (posts + historias) y kit de historias con la tipografía de marca.",
+  "description": "Alma House — Miércoles de Amigas: promoción de los miércoles (posts + historias).",
   "scripts": {
     "prep": "node scripts/prep-assets.mjs",
     "render": "node scripts/render.mjs",
-    "build": "npm run prep && npm run render && npm run ejemplos && npm run site",
-    "site": "node scripts/site.mjs",
-    "ejemplos": "node scripts/kit-ejemplos.mjs"
+    "build": "npm run prep && npm run render && npm run site",
+    "site": "node scripts/site.mjs"
   },
   "devDependencies": {
     "puppeteer-core": "^23.0.0",
