@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>02 · Así funciona — Alma House</title>
+<link rel="stylesheet" href="../../assets/css/alma.css">
+<link rel="stylesheet" href="../../assets/css/miercoles.css">
+<style>
+  h2 { font-size: 104px; line-height: .92; letter-spacing: -.02em; color: var(--ink); }
+  h2 em { color: var(--hot-brown); }
+  ol { list-style: none; }
+  li { display: grid; grid-template-columns: 110px 1fr; padding: 34px 0; border-top: 1px solid rgba(50,52,42,.18); align-items: baseline; }
+  li:last-child { border-bottom: 1px solid rgba(50,52,42,.18); }
+  li .n { font-family: var(--serif); font-style: italic; font-size: 72px; line-height: 1; color: var(--hot-brown); }
+  li .serif { font-size: 52px; line-height: 1.05; color: var(--ink); }
+  li .body { font-size: 26px; color: #6b6a58; margin-top: 8px; }
+  .fine { color: #6b6a58; }
+
+  /* Post: texto a la izquierda, foto en columna derecha */
+  .p { display: grid; grid-template-columns: 1fr 360px; }
+  .p .col { padding: 160px 48px 130px 72px; display: flex; flex-direction: column; }
+  .p .pic { position: relative; overflow: hidden; }
+  .p .pic img { width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; }
+  .p ol { margin-top: 56px; }
+  .p .fine { margin-top: auto; }
+  .p .seal { left: 600px; top: 900px; width: 250px; height: 250px; color: var(--hot-brown); }
+  .p .seal svg { background: var(--white-beach); border-radius: 50%; }
+
+  /* Historia */
+  .s .photo { bottom: auto; height: 540px; }
+  .s .photo img { object-position: 60% 55%; }
+  .s .col { position: absolute; left: 72px; right: 72px; top: 600px; }
+  .s h2 { font-size: 112px; }
+  .s li .serif { font-size: 56px; }
+  .s li .body { font-size: 28px; }
+  .s li .n { font-size: 84px; }
+  .s ol { margin-top: 40px; }
+  .s li { padding: 32px 0; }
+  .s .fine { position: absolute; left: 72px; right: 72px; top: 1478px; }
+  .s .seal { right: 64px; top: 380px; width: 250px; height: 250px; color: var(--hot-brown); }
+  .s .seal svg { background: var(--white-beach); border-radius: 50%; }
+</style>
+</head>
+<body>
+
+<section class="slide p bg-cream grain" data-file="02-post.png">
+  <div class="col">
+    <div class="masthead label" style="color:var(--hot-brown); right: 432px"><span class="serie">Miércoles de Amigas</span></div>
+    <h2 class="serif">Así funciona<br><em>tu miércoles.</em></h2>
+    <ol>
+      <li><span class="n">1</span><div><p class="serif">Escríbenos.</p><p class="body">Reserva para ti y tu amiga por WhatsApp: 311 566 2051.</p></div></li>
+      <li><span class="n">2</span><div><p class="serif">Vengan juntas.</p><p class="body">Cualquier miércoles. Cada una con su silla, al lado de la otra.</p></div></li>
+      <li><span class="n">3</span><div><p class="serif">Las dos, 15%.</p><p class="body">En su servicio de manos o pies.</p></div></li>
+    </ol>
+    <p class="fine">Válido los miércoles con reserva previa para dos personas. No acumulable con otras promociones.</p>
+  </div>
+  <div class="pic grade"><img src="../../assets/photos/amigas-abanico-tonos.jpg" alt=""></div>
+  <div class="seal" data-sub="para las dos"></div>
+</section>
+
+<section class="slide story s bg-cream grain" data-file="02-historia.png">
+  <div class="photo grade"><img src="../../assets/photos/amigas-abanico-tonos.jpg" alt=""></div>
+  <div class="seal" data-sub="para las dos"></div>
+  <div class="col">
+    <p class="label" style="color:var(--hot-brown); margin-bottom: 26px"><span class="serie">Miércoles de Amigas</span></p>
+    <h2 class="serif">Así funciona<br><em>tu miércoles.</em></h2>
+    <ol>
+      <li><span class="n">1</span><div><p class="serif">Escríbenos.</p><p class="body">Reserva para las dos: 311 566 2051.</p></div></li>
+      <li><span class="n">2</span><div><p class="serif">Vengan juntas.</p><p class="body">Cualquier miércoles, una al lado de la otra.</p></div></li>
+      <li><span class="n">3</span><div><p class="serif">Las dos, 15%.</p><p class="body">En su servicio de manos o pies.</p></div></li>
+    </ol>
+  </div>
+  <p class="fine">Válido los miércoles con reserva previa para dos personas. No acumulable con otras promociones.</p>
+</section>
+
+<script src="../../assets/js/seal.js"></script>
+</body>
+</html>

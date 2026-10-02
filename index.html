@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Miércoles de Amigas · Alma House</title>
+<link rel="icon" href="assets/brand/logos/isotipo-terracota.png">
+<style>
+@font-face{font-family:'Aurora';src:url('assets/brand/fonts/aurora-serif.otf');font-style:normal}
+@font-face{font-family:'Aurora';src:url('assets/brand/fonts/aurora-serif-italic.otf');font-style:italic}
+@font-face{font-family:'Uncage';src:url('assets/brand/fonts/uncage-vf.ttf');font-weight:100 900}
+@font-face{font-family:'Figtree';src:url('assets/brand/fonts/figtree-vf.ttf');font-weight:300 900}
+:root{--cream:#F7EFE7;--paper:#FBF6F0;--blush:#CEBAAA;--sage:#A3A287;--brown:#99471D;--bakery:#AF9175;--forest:#3F412F;--espresso:#2A1F1A;--ink:#32342A;--ink2:#5E6150;--line:rgba(50,52,42,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:'Figtree',system-ui,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+.label,.eyebrow{font-family:'Uncage','Figtree',sans-serif;text-transform:uppercase;letter-spacing:.28em;font-size:11px;font-weight:500}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.serif{font-family:'Aurora',Georgia,serif;font-weight:400}
+
+.hero{background:var(--blush);padding:40px 0 80px;color:var(--espresso)}
+.mast{display:flex;align-items:center;gap:20px;color:var(--brown)}
+.mast .rule{flex:1;height:1px;background:currentColor;opacity:.3}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;margin-top:64px}
+.hero h1{font-family:'Aurora',serif;font-weight:400;font-size:clamp(50px,6.6vw,100px);line-height:.86;letter-spacing:-.03em}
+.hero h1 em{color:var(--brown)}
+.hero .lede{font-family:'Aurora',serif;font-style:italic;font-size:clamp(22px,2.4vw,30px);line-height:1.25;margin-top:30px;max-width:32ch}
+.hero .by{margin-top:34px;color:var(--brown);line-height:2}
+.hero .pair{display:grid;grid-template-columns:1fr .62fr;gap:16px;align-items:end}
+.hero .pair img{border-radius:4px;box-shadow:0 30px 70px rgba(42,31,26,.25)}
+
+.sec{padding:80px 0 10px}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:30px;flex-wrap:wrap}
+.sec-h h3{font-family:'Aurora',serif;font-weight:400;font-size:44px;line-height:1}
+.sec-h .label{color:var(--bakery)}
+.strategy{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.strategy div{border-top:2px solid var(--brown);padding-top:18px}
+.strategy h4{font-family:'Aurora',serif;font-weight:400;font-size:26px;line-height:1.1;margin-bottom:10px}
+.strategy p{color:var(--ink2);font-size:15px}
+.terms{margin-top:36px;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:26px 28px;display:grid;grid-template-columns:auto 1fr;gap:10px 28px}
+.terms .label{color:var(--brown);grid-column:1/-1;margin-bottom:6px}
+.terms dt{font-weight:600}
+.terms dd{color:var(--ink2)}
+.terms .warn{grid-column:1/-1;margin-top:10px;font-size:14px;color:var(--brown)}
+
+.cals{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.cal{text-decoration:none;display:flex;flex-direction:column;gap:8px}
+.cal img{aspect-ratio:4/5;object-fit:cover;width:100%;border-radius:3px;transition:transform .3s}
+.cal:hover img{transform:translateY(-4px)}
+.cal-d{font-family:'Uncage',sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:10px;color:var(--brown)}
+.cal-t{font-family:'Aurora',serif;font-size:18px;line-height:1.15}
+
+.piece{padding:80px 0 30px;border-top:1px solid var(--line);margin-top:40px}
+.ph{display:grid;grid-template-columns:1fr auto;gap:6px 32px;align-items:end}
+.ph .eyebrow{color:var(--brown);grid-column:1/-1}
+.ph h2{font-family:'Aurora',serif;font-weight:400;font-size:clamp(40px,5.4vw,70px);line-height:.95;letter-spacing:-.02em}
+.when{display:flex;gap:10px;flex-wrap:wrap}
+.when span{font-family:'Uncage',sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;border:1px solid var(--ink);border-radius:999px;padding:9px 16px;white-space:nowrap}
+.when span:first-child{background:var(--ink);color:var(--cream)}
+.role{grid-column:1/-1;color:var(--ink2);max-width:80ch;margin-top:16px}
+.duo{display:grid;grid-template-columns:1.25fr .78fr 1.2fr;gap:22px;margin-top:30px;align-items:start}
+.duo figure img{width:100%;border-radius:3px;box-shadow:0 14px 40px rgba(50,40,30,.13)}
+.duo figcaption{font-size:12px;color:var(--bakery);margin-top:8px;letter-spacing:.04em}
+.capbox{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:24px 26px}
+.cap-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;color:var(--bakery)}
+.cap{white-space:pre-line;font-size:15px;line-height:1.62}
+.copy{font-family:'Uncage',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;background:var(--brown);color:var(--cream);border:0;border-radius:999px;padding:10px 16px;cursor:pointer}
+.copy.ok{background:var(--forest)}
+.copy:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--brown);outline-offset:3px}
+.details{margin-top:18px}
+.details details{border-top:1px solid var(--line)}
+.details summary{cursor:pointer;list-style:none;padding:13px 0;font-family:'Aurora',serif;font-size:20px;display:flex;justify-content:space-between}
+.details summary::after{content:'+';color:var(--brown)}
+.details details[open] summary::after{content:'–'}
+.details details>*:not(summary){margin-bottom:12px;font-size:14px;color:var(--ink2)}
+.details ul,.details ol{padding-left:20px}
+code{font-size:12.5px;background:rgba(153,71,29,.08);padding:1px 5px;border-radius:3px}
+
+.kit-intro{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.guide h4{font-family:'Aurora',serif;font-weight:400;font-size:28px;line-height:1.1;margin:36px 0 12px}
+.guide p{margin-bottom:10px}
+.guide p,.guide li{color:var(--ink2);font-size:15.5px}
+.guide ol,.guide ul{padding-left:22px;margin:8px 0}
+.guide li{margin-bottom:6px}
+.guide .tip{border-left:3px solid var(--brown);padding:10px 16px;background:var(--paper);margin:14px 0;font-size:14.5px}
+.ejemplos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;position:sticky;top:20px}
+.ejemplos img{border-radius:4px;box-shadow:0 14px 40px rgba(50,40,30,.15)}
+.ejemplos p{grid-column:1/-1;font-size:12px;color:var(--bakery)}
+.fonts{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 6px}
+.btn{display:inline-block;border:1px solid var(--brown);color:var(--brown);text-decoration:none;border-radius:999px;padding:11px 18px;font-family:'Uncage',sans-serif;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase}
+.btn:hover{background:var(--brown);color:var(--cream)}
+.stickers{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:40px}
+.stk{display:flex;flex-direction:column;gap:6px;text-decoration:none}
+.stk .box{aspect-ratio:1;border-radius:4px;display:grid;place-items:center;padding:12px;overflow:hidden}
+.stk .box img{max-height:100%;object-fit:contain}
+.stk.claro .box{background:#3a342e}
+.stk.oscuro .box{background:var(--paper);border:1px solid var(--line)}
+.stk span{font-size:11.5px;color:var(--ink2)}
+.stk span b{font-weight:600;color:var(--brown);text-transform:none}
+
+.foot{background:var(--forest);color:var(--cream);margin-top:90px;padding:64px 0}
+.foot-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.foot h4{font-family:'Aurora',serif;font-weight:400;font-size:30px;line-height:1.05;margin-bottom:14px}
+.foot p{color:rgba(247,239,231,.8);font-size:14.5px;margin-bottom:12px}
+.foot .label{color:var(--blush)}
+.foot .btn{border-color:var(--blush);color:var(--cream);margin:8px 8px 0 0}
+.sign{display:flex;justify-content:space-between;align-items:center;margin-top:56px;padding-top:26px;border-top:1px solid rgba(247,239,231,.15);gap:18px;flex-wrap:wrap}
+.sign img{height:42px}
+
+@media (max-width:980px){
+  .hero-grid,.kit-intro,.foot-grid{grid-template-columns:1fr}
+  .duo{grid-template-columns:1fr 1fr}
+  .duo .capbox{grid-column:1/-1}
+  .strategy{grid-template-columns:1fr}
+  .cals{grid-template-columns:repeat(3,1fr)}
+  .stickers{grid-template-columns:repeat(4,1fr)}
+  .ph{grid-template-columns:1fr}
+  .ejemplos{position:static}
+}
+@media (max-width:560px){
+  .wrap{padding:0 16px}
+  .cals{grid-template-columns:repeat(2,1fr)}
+  .stickers{grid-template-columns:repeat(2,1fr)}
+  .terms{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="mast label"><span>Alma House · Nails Bar</span><span class="rule"></span><span>Campaña · Octubre 2026</span></div>
+    <div class="hero-grid">
+      <div>
+        <h1>Los miércoles<br><em>se comparten.</em></h1>
+        <p class="lede">Miércoles de Amigas: convertir el día más tranquilo de la semana en el plan favorito de dos.</p>
+        <p class="by label">6 piezas · post + historia · kit de historias<br>Dirección creativa · We Rock Agencia</p>
+      </div>
+      <div class="pair"><img src="web/01-post.jpg" alt="Post de lanzamiento: Los miércoles se comparten"><img src="web/01-historia.jpg" alt="Historia de lanzamiento"></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="sec">
+    <div class="sec-h"><h3>Cómo lo vemos</h3><span class="label">La estrategia</span></div>
+    <div class="strategy">
+      <div><h4>Una promo que suma, no que abarata</h4><p>Alma House no compite por precio. Por eso el 15% no se anuncia como "descuento": es un <b>ritual para dos</b>. Lo que se vende es el plan con la amiga; el 15% es la excusa.</p></div>
+      <div><h4>El miércoles, día de amigas</h4><p>Si el miércoles es el día más solo, la promo lo llena de a dos: cada reserva trae <b>dos clientas</b>, y una de ellas muchas veces es nueva. Es boca a boca con mecánica.</p></div>
+      <div><h4>Mismo lenguaje de marca</h4><p>Misma tipografía, paleta y tono del Capítulo III, más un elemento propio: el <b>sello "Miércoles de Amigas · 15%"</b>, para que la promo se reconozca al instante sin verse como un flyer.</p></div>
+    </div>
+    <dl class="terms">
+      <p class="label">Mecánica propuesta</p>
+      <dt>Qué</dt><dd>15% para cada una en su servicio de manos o pies.</dd>
+      <dt>Cuándo</dt><dd>Todos los miércoles, desde el 7 de octubre.</dd>
+      <dt>Cómo</dt><dd>Reservando juntas por WhatsApp (311 566 2051). No acumulable con otras promociones.</dd>
+      <p class="warn">Por confirmar con Alma House antes de publicar: servicios incluidos, si aplica a dos o más amigas y si tiene fecha de cierre.</p>
+    </dl>
+  </section>
+
+  <section class="sec">
+    <div class="sec-h"><h3>Calendario</h3><span class="label">Post + historia de cada pieza</span></div>
+    <div class="cals"><a class="cal" href="#p01"><span class="cal-d">Lun 5 oct</span><img src="web/01-post.jpg" alt="" loading="lazy"><span class="cal-t">Los miércoles se comparten</span></a><a class="cal" href="#p02"><span class="cal-d">Mié 7 oct</span><img src="web/02-post.jpg" alt="" loading="lazy"><span class="cal-t">Así funciona tu miércoles</span></a><a class="cal" href="#p03"><span class="cal-d">Mié 14 oct</span><img src="web/03-post.jpg" alt="" loading="lazy"><span class="cal-t">Estás invitada</span></a><a class="cal" href="#p04"><span class="cal-d">Mié 21 oct</span><img src="web/04-post.jpg" alt="" loading="lazy"><span class="cal-t">El plan de mitad de semana</span></a><a class="cal" href="#p05"><span class="cal-d">Mié 28 oct</span><img src="web/05-post.jpg" alt="" loading="lazy"><span class="cal-t">¿Iguales u opuestas?</span></a><a class="cal" href="#p06"><span class="cal-d">Cada miércoles</span><img src="web/06-post.jpg" alt="" loading="lazy"><span class="cal-t">Hoy es miércoles</span></a></div>
+  </section>
+
+  
+<section class="piece" id="p01">
+  <header class="ph">
+    <p class="eyebrow">01 · Lanzamiento</p>
+    <h2>Los miércoles se comparten</h2>
+    <p class="when"><span>Lun 5 oct</span><span>6:00 p. m.</span></p>
+    <p class="role">El lanzamiento. Presenta el Miércoles de Amigas como un ritual de la casa, no como un descuento. Sale el lunes para que haya tiempo de coordinar con la amiga antes del primer miércoles.</p>
+  </header>
+  <div class="duo">
+    <figure><a href="piezas/01-los-miercoles-se-comparten/export/01-post.png" target="_blank"><img src="web/01-post.jpg" alt="" loading="lazy"></a><figcaption>Post · 1080×1350</figcaption></figure>
+    <figure class="st"><a href="piezas/01-los-miercoles-se-comparten/export/01-historia.png" target="_blank"><img src="web/01-historia.jpg" alt="" loading="lazy"></a><figcaption>Historia · 1080×1920</figcaption></figure>
+    <div class="capbox">
+      <div class="cap-h"><span class="label">Caption</span><button class="copy" data-copy="cap01">Copiar caption</button></div>
+      <div class="cap" id="cap01">Los miércoles se comparten.
+
+Desde este 7 de octubre, cada miércoles en Alma House es para venir con tu amiga: reservan juntas, se sientan una al lado de la otra y las dos tienen 15% en su servicio.
+
+Café, conversación (o silencio, si así lo prefieren) y uñas nuevas para las dos.
+
+¿Ya sabes con quién vienes?
+
+Reserven por WhatsApp: 311 566 2051
+CC Montaña Plaza, local 4 · Cajicá
+
+#AlmaHouse #MiercolesDeAmigas #Cajicá #NailBarCajicá #PlanConAmigas #TuMomento</div>
+      <div class="details"><details><summary>Texto alternativo</summary><ul><li>Post e historia: dos manos de amigas con uñas largas y anillos dorados entrelazan el meñique. Sello "Miércoles de Amigas · 15% para las dos". Texto: "Los miércoles se comparten. Ven con tu amiga. Las dos tienen 15%."</li></ul></details><details><summary>Notas</summary><ul><li>En la historia, agregar el sticker de <b>enlace</b> a <code>wa.me/573115662051</code> (texto: "Reservar para dos") debajo del botón.</li><li>Fijar el post en el perfil durante octubre, junto al Manifiesto.</li></ul></details></div>
+    </div>
+  </div>
+</section>
+
+<section class="piece" id="p02">
+  <header class="ph">
+    <p class="eyebrow">02 · La mecánica</p>
+    <h2>Así funciona tu miércoles</h2>
+    <p class="when"><span>Mié 7 oct</span><span>8:00 a. m.</span></p>
+    <p class="role">Explica la mecánica en tres pasos y deja la letra pequeña clara. El miércoles es el día con más espacio en la agenda, así que sirve para reservar el mismo día.</p>
+  </header>
+  <div class="duo">
+    <figure><a href="piezas/02-asi-funciona/export/02-post.png" target="_blank"><img src="web/02-post.jpg" alt="" loading="lazy"></a><figcaption>Post · 1080×1350</figcaption></figure>
+    <figure class="st"><a href="piezas/02-asi-funciona/export/02-historia.png" target="_blank"><img src="web/02-historia.jpg" alt="" loading="lazy"></a><figcaption>Historia · 1080×1920</figcaption></figure>
+    <div class="capbox">
+      <div class="cap-h"><span class="label">Caption</span><button class="copy" data-copy="cap02">Copiar caption</button></div>
+      <div class="cap" id="cap02">Así funciona tu miércoles en Alma House:
+
+1. Escríbenos y reserva para ti y tu amiga.
+2. Vengan juntas, cualquier miércoles. Cada una en su silla, una al lado de la otra.
+3. Las dos tienen 15% en su servicio de manos o pies.
+
+Hoy es el primero. Todavía hay espacio.
+
+WhatsApp: 311 566 2051
+CC Montaña Plaza, local 4 · Cajicá
+
+Válido los miércoles con reserva previa para dos personas. No acumulable con otras promociones.
+
+#AlmaHouse #MiercolesDeAmigas #Cajicá #ManicureCajicá #PedicureCajicá</div>
+      <div class="details"><details><summary>Texto alternativo</summary><ul><li>Mano junto a un abanico de muestras de esmalte. "Así funciona tu miércoles: 1. Escríbenos. 2. Vengan juntas. 3. Las dos, 15%." Letra pequeña con las condiciones.</li></ul></details><details><summary>Notas</summary><ul><li>Escribir "Todavía hay espacio" solo si es verdad ese día. Si la agenda del miércoles ya está llena, cambiarlo por "Reserva para el próximo miércoles".</li></ul></details></div>
+    </div>
+  </div>
+</section>
+
+<section class="piece" id="p03">
+  <header class="ph">
+    <p class="eyebrow">03 · Para etiquetar</p>
+    <h2>Estás invitada</h2>
+    <p class="when"><span>Mié 14 oct</span><span>8:00 a. m.</span></p>
+    <p class="role">La pieza para <b>compartir y etiquetar</b>. Es una invitación de verdad, para que una amiga se la envíe a la otra, y la que más alcance orgánico puede traer.</p>
+  </header>
+  <div class="duo">
+    <figure><a href="piezas/03-estas-invitada/export/03-post.png" target="_blank"><img src="web/03-post.jpg" alt="" loading="lazy"></a><figcaption>Post · 1080×1350</figcaption></figure>
+    <figure class="st"><a href="piezas/03-estas-invitada/export/03-historia.png" target="_blank"><img src="web/03-historia.jpg" alt="" loading="lazy"></a><figcaption>Historia · 1080×1920</figcaption></figure>
+    <div class="capbox">
+      <div class="cap-h"><span class="label">Caption</span><button class="copy" data-copy="cap03">Copiar caption</button></div>
+      <div class="cap" id="cap03">Estás invitada.
+
+Tú, tu amiga y un miércoles para las dos en Alma House. 15% para cada una.
+
+Etiqueta a la amiga con la que vendrías (o envíale esta invitación por DM, como debe ser).
+
+Reserven juntas: 311 566 2051
+CC Montaña Plaza, local 4 · Cajicá
+
+#AlmaHouse #MiercolesDeAmigas #EstásInvitada #Cajicá #NailBarCajicá</div>
+      <div class="details"><details><summary>Texto alternativo</summary><ul><li>Tarjeta de invitación crema sobre fondo verde salvia, con una foto tipo polaroid de dos amigas con pedicure rojo y jeans. "Estás invitada. Tú, tu amiga y un miércoles para las dos. 15% para cada una · Con reserva."</li></ul></details><details><summary>Notas</summary><ul><li>En la historia, la zona de abajo queda libre para el sticker de <b>mención</b> ("@ tu amiga") o el de enlace a WhatsApp.</li><li>Responder cada etiqueta con un mensaje cálido: "¡Las esperamos un miércoles! Escríbannos y les guardamos dos sillas juntas."</li></ul></details></div>
+    </div>
+  </div>
+</section>
+
+<section class="piece" id="p04">
+  <header class="ph">
+    <p class="eyebrow">04 · Reposicionamiento</p>
+    <h2>El plan de mitad de semana</h2>
+    <p class="when"><span>Mié 21 oct</span><span>8:00 a. m.</span></p>
+    <p class="role">Reposiciona el miércoles. Alma House compite con el after office o el brunch, no con otro salón: la cita de uñas pasa a ser <em>el plan</em>.</p>
+  </header>
+  <div class="duo">
+    <figure><a href="piezas/04-el-plan-de-mitad-de-semana/export/04-post.png" target="_blank"><img src="web/04-post.jpg" alt="" loading="lazy"></a><figcaption>Post · 1080×1350</figcaption></figure>
+    <figure class="st"><a href="piezas/04-el-plan-de-mitad-de-semana/export/04-historia.png" target="_blank"><img src="web/04-historia.jpg" alt="" loading="lazy"></a><figcaption>Historia · 1080×1920</figcaption></figure>
+    <div class="capbox">
+      <div class="cap-h"><span class="label">Caption</span><button class="copy" data-copy="cap04">Copiar caption</button></div>
+      <div class="cap" id="cap04">El mejor plan de mitad de semana no es un after office.
+
+Es tu amiga, un café de por medio y uñas nuevas para las dos. Un momento para ponerse al día sin mirar el reloj.
+
+Y los miércoles, las dos tienen 15%.
+
+Reserven juntas: 311 566 2051
+CC Montaña Plaza, local 4 · Cajicá
+
+#AlmaHouse #MiercolesDeAmigas #PlanConAmigas #Cajicá #MitadDeSemana</div>
+      <div class="details"><details><summary>Texto alternativo</summary><ul><li>Mano con uñas negras de lunares blancos dentro de una copa de agua. "El plan de mitad de semana. No es un after office. Es Alma House. Tu amiga, un café de por medio y uñas nuevas para las dos."</li></ul></details></div>
+    </div>
+  </div>
+</section>
+
+<section class="piece" id="p05">
+  <header class="ph">
+    <p class="eyebrow">05 · Conversación</p>
+    <h2>¿Iguales u opuestas?</h2>
+    <p class="when"><span>Mié 28 oct</span><span>8:00 a. m.</span></p>
+    <p class="role">Contenido de conversación y guardado. Retoma los tonos de <b>La edición de octubre</b> y los convierte en un juego entre amigas, que da tema de comentarios y una razón para ir juntas.</p>
+  </header>
+  <div class="duo">
+    <figure><a href="piezas/05-tonos-para-dos/export/05-post.png" target="_blank"><img src="web/05-post.jpg" alt="" loading="lazy"></a><figcaption>Post · 1080×1350</figcaption></figure>
+    <figure class="st"><a href="piezas/05-tonos-para-dos/export/05-historia.png" target="_blank"><img src="web/05-historia.jpg" alt="" loading="lazy"></a><figcaption>Historia · 1080×1920</figcaption></figure>
+    <div class="capbox">
+      <div class="cap-h"><span class="label">Caption</span><button class="copy" data-copy="cap05">Copiar caption</button></div>
+      <div class="cap" id="cap05">¿Iguales u opuestas?
+
+Gemelas: rojo casa + rojo casa. Para las que lo hacen todo juntas.
+Opuestas: cereza negra + leche de almendra. La noche y el día, en la misma mesa.
+Cómplices: café con leche + verde oliva. Distintas, pero se entienden.
+
+¿Cuál son ustedes? Cuéntanos en comentarios y etiqueta a tu amiga.
+
+Miércoles de Amigas: 15% para las dos.
+Reserven: 311 566 2051 · CC Montaña Plaza, local 4 · Cajicá
+
+#AlmaHouse #MiercolesDeAmigas #UñasOtoño #Cajicá #NailBarCajicá</div>
+      <div class="details"><details><summary>Texto alternativo</summary><ul><li>Tres pares de uñas-muestra: rojo con rojo ("Gemelas"), vino oscuro con crema ("Opuestas") y nude con verde oliva ("Cómplices"), junto a una mano con uñas rojas que sostiene un labial. "¿Iguales u opuestas?"</li></ul></details><details><summary>Notas</summary><ul><li>En la historia, agregar un sticker de <b>encuesta</b> o de <b>preguntas</b> ("¿Gemelas u opuestas?").</li><li>Los tonos son de referencia, igual que en La edición de octubre: en la cita se asesora con el equivalente de la carta de color.</li></ul></details></div>
+    </div>
+  </div>
+</section>
+
+<section class="piece" id="p06">
+  <header class="ph">
+    <p class="eyebrow">06 · Recordatorio semanal</p>
+    <h2>Hoy es miércoles</h2>
+    <p class="when"><span>Cada miércoles</span><span>Historia 11:00 a. m.</span></p>
+    <p class="role">El recordatorio que convierte. Corto, directo, con humor suave; funciona cada semana sin desgastarse.</p>
+  </header>
+  <div class="duo">
+    <figure><a href="piezas/06-hoy-es-miercoles/export/06-post.png" target="_blank"><img src="web/06-post.jpg" alt="" loading="lazy"></a><figcaption>Post · 1080×1350</figcaption></figure>
+    <figure class="st"><a href="piezas/06-hoy-es-miercoles/export/06-historia.png" target="_blank"><img src="web/06-historia.jpg" alt="" loading="lazy"></a><figcaption>Historia · 1080×1920</figcaption></figure>
+    <div class="capbox">
+      <div class="cap-h"><span class="label">Caption</span><button class="copy" data-copy="cap06">Copiar caption</button></div>
+      <div class="cap" id="cap06">Hoy es miércoles.
+¿Ya le escribiste a tu amiga?
+
+Las dos tienen 15% en Alma House, hoy y todos los miércoles.
+
+Reserven: 311 566 2051
+CC Montaña Plaza, local 4 · Cajicá
+
+#AlmaHouse #MiercolesDeAmigas #Cajicá #NailBarCajicá</div>
+      <div class="details"><details><summary>Texto alternativo</summary><ul><li>Fondo rosa empolvado con el texto "Hoy es miércoles." y una foto en arco de dos manos con anillos que sostienen un helado. "¿Ya le escribiste a tu amiga?" Sello "Miércoles de Amigas · 15%".</li></ul></details><details><summary>Notas</summary><ul><li>En la historia, agregar el sticker de <b>enlace</b> a WhatsApp. La noche del martes, se puede subir con un sticker de <b>cuenta regresiva</b> ("Miércoles de Amigas").</li><li>Si un miércoles ya está lleno, no publicarla ese día: la escasez real también vende.</li></ul></details></div>
+    </div>
+  </div>
+</section>
+
+  <section class="sec" id="kit">
+    <div class="sec-h"><h3>Historias con la tipografía de Alma</h3><span class="label">Guía + kit de stickers</span></div>
+    <div class="kit-intro">
+      <div class="guide">
+        <p>Instagram no deja cargar tipografías propias: las letras del editor de historias son las de la app. Por eso, para que las historias del día a día se vean como el resto de la marca, hay tres caminos. Del más rápido al más flexible:</p>
+<h4>Opción A · El kit de stickers (desde el celular, en 2 minutos)</h4>
+<p>Son frases ya escritas con la tipografía de Alma, en PNG con fondo transparente, para poner encima de tus propias fotos: <em>Hoy en la casa</em>, <em>Recién salidas</em>, <em>Tu momento</em>, <em>El tono de hoy</em>, <em>Agenda abierta</em>, <em>Miércoles de Amigas</em>, el sello del 15% y el botón <em>Reserva tu momento</em>. Cada una viene en versión <b>clara</b> (para fotos oscuras) y <b>oscura</b> (para fotos claras), más un <b>marco editorial</b> para fotos a pantalla completa.</p>
+<ol><li><b>Descárgalos al celular.</b> En la página, abre el sticker, mantenlo presionado y elige <em>Guardar imagen</em>.</li><li><b>iPhone:</b> abre el sticker en Fotos → <em>Compartir</em> → <em>Copiar</em>. En la historia, toca la pantalla y elige <em>Pegar</em>: entra como sticker y conserva el fondo transparente.</li><li><b>Android:</b> en la historia, toca el ícono de stickers → sticker <em>Foto</em> (galería) → elige el PNG. Toca el sticker para cambiar su forma hasta que se vea sin marco. Si tu celular le pone fondo, usa la Opción B.</li><li>Ajusta el tamaño con dos dedos y suma texto normal de Instagram solo para lo que cambia (el nombre del tono, un día, un nombre). Para el color de ese texto, usa el cuentagotas sobre el sticker y toma el mismo terracota.</li></ol>
+<p><b>Reglas de oro</b></p>
+<ul><li>Un sticker protagonista y, como mucho, uno pequeño (el sello o el botón de reserva). Menos es más lujo.</li><li>Claro sobre foto oscura, oscuro sobre foto clara.</li><li>Deja libre la franja de arriba (donde va tu foto de perfil) y la de abajo (donde se responde la historia).</li><li>Fotos con luz natural, de cerca, con manos y texturas: la misma línea del tablero de Pinterest.</li></ul>
+<h4>Opción B · Canva (para escribir frases nuevas con la tipografía)</h4>
+<ol><li>En <b>Canva Pro</b>, entra a <em>Kit de marca</em> → <em>Fuentes</em> → <em>Subir fuente</em> y sube los tres archivos de la marca: <b>Aurora Magnolia Serif</b> (regular e itálica) y <b>Uncage</b>. Los enlaces de descarga están en la página.</li><li>Crea un diseño de <b>1080 × 1920 px</b> (<em>Historia de Instagram</em>).</li><li><b>Títulos</b> en Aurora, grandes; pon en <em>itálica</em> la palabra que importa ("Hoy en <em>la casa</em>"). <b>Etiquetas</b> pequeñas en Uncage, en MAYÚSCULAS y con espaciado amplio (300 o más).</li><li><b>Colores de la marca:</b> crema <code>#F7EFE7</code> · rosa empolvado <code>#CEBAAA</code> · terracota <code>#99471D</code> · verde <code>#3F412F</code> · café oscuro <code>#2A1F1A</code>.</li><li>Exporta en PNG y súbelo como historia.</li></ol>
+<p class="tip">Sin Canva Pro no se pueden subir fuentes propias. En ese caso, usa la Opción A.</p>
+<h4>Opción C · Plantillas listas</h4>
+<p>Las 6 piezas de <em>Miércoles de Amigas</em> ya vienen en formato historia (1080 × 1920): se descargan y se suben tal cual, agregando en la app el sticker que indica cada pieza (enlace a WhatsApp, encuesta o mención).</p>
+<p><em>Las tipografías son de uso exclusivo de Alma House: no compartirlas fuera del equipo.</em></p>
+        <div class="fonts">
+          <a class="btn" href="assets/brand/fonts/aurora-serif.otf" download>Aurora · regular</a>
+          <a class="btn" href="assets/brand/fonts/aurora-serif-italic.otf" download>Aurora · itálica</a>
+          <a class="btn" href="assets/brand/fonts/uncage-vf.ttf" download>Uncage</a>
+        </div>
+      </div>
+      <div class="ejemplos"><img src="web/ej-ejemplo-1-recien-salidas.jpg" alt="Ejemplo de historia hecha con el kit"><img src="web/ej-ejemplo-2-hoy-en-la-casa.jpg" alt="Ejemplo de historia hecha con el kit"><img src="web/ej-ejemplo-3-miercoles-de-amigas.jpg" alt="Ejemplo de historia hecha con el kit"><p>Ejemplos armados con el kit sobre fotos reales.</p></div>
+    </div>
+    <div class="stickers">
+      <a class="stk claro" href="piezas/07-kit-de-historias/export/marco-editorial-claro.png" download="marco-editorial-claro.png"><span class="box"><img src="web/kit-marco-editorial-claro.jpg" alt=""></span><span>marco editorial · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/marco-editorial-oscuro.png" download="marco-editorial-oscuro.png"><span class="box"><img src="web/kit-marco-editorial-oscuro.jpg" alt=""></span><span>marco editorial · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-agenda-abierta-claro.png" download="sticker-agenda-abierta-claro.png"><span class="box"><img src="web/kit-sticker-agenda-abierta-claro.jpg" alt=""></span><span>agenda abierta · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-agenda-abierta-oscuro.png" download="sticker-agenda-abierta-oscuro.png"><span class="box"><img src="web/kit-sticker-agenda-abierta-oscuro.jpg" alt=""></span><span>agenda abierta · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-el-tono-de-hoy-claro.png" download="sticker-el-tono-de-hoy-claro.png"><span class="box"><img src="web/kit-sticker-el-tono-de-hoy-claro.jpg" alt=""></span><span>el tono de hoy · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-el-tono-de-hoy-oscuro.png" download="sticker-el-tono-de-hoy-oscuro.png"><span class="box"><img src="web/kit-sticker-el-tono-de-hoy-oscuro.jpg" alt=""></span><span>el tono de hoy · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-hoy-en-la-casa-claro.png" download="sticker-hoy-en-la-casa-claro.png"><span class="box"><img src="web/kit-sticker-hoy-en-la-casa-claro.jpg" alt=""></span><span>hoy en la casa · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-hoy-en-la-casa-oscuro.png" download="sticker-hoy-en-la-casa-oscuro.png"><span class="box"><img src="web/kit-sticker-hoy-en-la-casa-oscuro.jpg" alt=""></span><span>hoy en la casa · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-miercoles-de-amigas-claro.png" download="sticker-miercoles-de-amigas-claro.png"><span class="box"><img src="web/kit-sticker-miercoles-de-amigas-claro.jpg" alt=""></span><span>miercoles de amigas · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-miercoles-de-amigas-oscuro.png" download="sticker-miercoles-de-amigas-oscuro.png"><span class="box"><img src="web/kit-sticker-miercoles-de-amigas-oscuro.jpg" alt=""></span><span>miercoles de amigas · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-recien-salidas-claro.png" download="sticker-recien-salidas-claro.png"><span class="box"><img src="web/kit-sticker-recien-salidas-claro.jpg" alt=""></span><span>recien salidas · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-recien-salidas-oscuro.png" download="sticker-recien-salidas-oscuro.png"><span class="box"><img src="web/kit-sticker-recien-salidas-oscuro.jpg" alt=""></span><span>recien salidas · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-reserva-tu-momento-claro.png" download="sticker-reserva-tu-momento-claro.png"><span class="box"><img src="web/kit-sticker-reserva-tu-momento-claro.jpg" alt=""></span><span>reserva tu momento · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-reserva-tu-momento-oscuro.png" download="sticker-reserva-tu-momento-oscuro.png"><span class="box"><img src="web/kit-sticker-reserva-tu-momento-oscuro.jpg" alt=""></span><span>reserva tu momento · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-sello-15-claro.png" download="sticker-sello-15-claro.png"><span class="box"><img src="web/kit-sticker-sello-15-claro.jpg" alt=""></span><span>sello 15 · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-sello-15-oscuro.png" download="sticker-sello-15-oscuro.png"><span class="box"><img src="web/kit-sticker-sello-15-oscuro.jpg" alt=""></span><span>sello 15 · <b>oscuro</b></span></a><a class="stk claro" href="piezas/07-kit-de-historias/export/sticker-tu-momento-claro.png" download="sticker-tu-momento-claro.png"><span class="box"><img src="web/kit-sticker-tu-momento-claro.jpg" alt=""></span><span>tu momento · <b>claro</b></span></a><a class="stk oscuro" href="piezas/07-kit-de-historias/export/sticker-tu-momento-oscuro.png" download="sticker-tu-momento-oscuro.png"><span class="box"><img src="web/kit-sticker-tu-momento-oscuro.jpg" alt=""></span><span>tu momento · <b>oscuro</b></span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="label">Sobre las imágenes</p>
+        <h4>Fotografía de referencia</h4>
+        <p>Las fotografías vienen del tablero de Pinterest aprobado por Alma House y pertenecen a sus autores. Se usan como dirección de arte en contenido orgánico, no en pauta paga (fuentes en <a href="https://github.com/Werockagencia/alma-house-miercoles-de-amigas/blob/main/assets/pinterest/SOURCES.md" target="_blank">SOURCES.md</a>).</p>
+      </div>
+      <div>
+        <p class="label">Archivos</p>
+        <h4>Todo listo para subir</h4>
+        <p>Cada imagen abre su PNG final. Los stickers se descargan en PNG con fondo transparente.</p>
+        <a class="btn" href="https://github.com/Werockagencia/alma-house-miercoles-de-amigas/blob/main/CAPTIONS.md" target="_blank">Todos los captions</a>
+        <a class="btn" href="https://github.com/Werockagencia/alma-house-miercoles-de-amigas/archive/refs/heads/main.zip">Descargar todo (.zip)</a>
+      </div>
+    </div>
+    <div class="sign">
+      <img src="assets/brand/logos/logo-crema.png" alt="Alma House Nails Bar">
+      <span class="label" style="color:var(--blush)">WhatsApp 311 566 2051 · CC Montaña Plaza, local 4 · Cajicá</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {
+  const el = document.getElementById(b.dataset.copy), t = el.innerText.trim();
+  try { await navigator.clipboard.writeText(t); } catch { const r = document.createRange(); r.selectNodeContents(el); getSelection().removeAllRanges(); getSelection().addRange(r); document.execCommand('copy'); }
+  const o = b.textContent; b.textContent = 'Copiado'; b.classList.add('ok'); setTimeout(() => { b.textContent = o; b.classList.remove('ok'); }, 1600);
+}));
+</script>
+</body>
+</html>

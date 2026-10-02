@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>07 · Kit de historias — Alma House</title>
+<link rel="stylesheet" href="../../assets/css/alma.css">
+<link rel="stylesheet" href="../../assets/css/miercoles.css">
+<style>
+  /* Cada sticker se dibuja centrado en un lienzo transparente y luego se recorta (data-trim). */
+  .k { background: transparent !important; display: flex; align-items: center; justify-content: center; }
+  .k .w { text-align: center; }
+  .claro { color: var(--white-beach); --acc: var(--smoke-dragon); text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+  .oscuro { color: var(--espresso); --acc: var(--hot-brown); }
+  .h { font-family: var(--serif); font-size: 150px; line-height: .9; letter-spacing: -.02em; }
+  .h em { color: var(--acc); }
+  .l { font-family: var(--label); text-transform: uppercase; letter-spacing: .34em; font-size: 26px; font-weight: 500; color: var(--acc); margin-bottom: 26px; }
+  .pillk { display: inline-flex; gap: 18px; align-items: center; border: 2px solid currentColor; border-radius: 999px; padding: 26px 44px;
+    font-family: var(--label); text-transform: uppercase; letter-spacing: .26em; font-size: 28px; font-weight: 500; }
+  .k .seal { position: relative; width: 420px; height: 420px; }
+  .claro .seal svg { filter: drop-shadow(0 2px 12px rgba(0,0,0,.3)); }
+
+  /* Marcos editoriales a pantalla completa (sin recorte) */
+  .frame { background: transparent !important; }
+  .frame .border { position: absolute; inset: 210px 40px 360px; border: 1.5px solid currentColor; opacity: .6; }
+  .frame .mast { position: absolute; left: 72px; right: 72px; top: 150px; display: flex; justify-content: space-between; align-items: center; }
+  .frame .mast .rule { flex: 1; height: 1px; background: currentColor; opacity: .4; margin: 0 24px; }
+  .frame .foot { position: absolute; left: 72px; right: 72px; bottom: 290px; display: flex; justify-content: space-between; }
+  .frame .label { font-size: 18px; }
+</style>
+</head>
+<body>
+<div id="out"></div>
+<script>
+  // Frases del kit: [archivo, html]. Cada una sale en versión clara (para fotos oscuras) y oscura (para fotos claras).
+  const stickers = [
+    ['hoy-en-la-casa',      '<p class="l">Alma House</p><p class="h">Hoy en<br><em>la casa.</em></p>'],
+    ['recien-salidas',      '<p class="h">Recién<br><em>salidas.</em></p>'],
+    ['tu-momento',          '<p class="h">Tu <em>momento.</em></p>'],
+    ['el-tono-de-hoy',      '<p class="l">El tono de hoy</p><p class="h"><em>________</em></p>'],
+    ['agenda-abierta',      '<p class="l">Esta semana</p><p class="h">Agenda<br><em>abierta.</em></p>'],
+    ['miercoles-de-amigas', '<p class="l">Todos los miércoles</p><p class="h">Miércoles<br><em>de Amigas.</em></p>'],
+    ['sello-15',            '<div class="seal" data-sub="para las dos"></div>'],
+    ['reserva-tu-momento',  '<span class="pillk">Reserva tu momento · 311 566 2051</span>'],
+  ];
+  const out = document.getElementById('out');
+  for (const tono of ['claro', 'oscuro'])
+    for (const [name, html] of stickers)
+      out.insertAdjacentHTML('beforeend', `<section class="slide story k ${tono}" data-transparent data-trim data-file="sticker-${name}-${tono}.png"><div class="w">${html}</div></section>`);
+  for (const tono of ['claro', 'oscuro'])
+    out.insertAdjacentHTML('beforeend', `
+      <section class="slide story frame ${tono}" data-transparent data-file="marco-editorial-${tono}.png">
+        <div class="border"></div>
+        <div class="mast label"><span>Alma House</span><span class="rule"></span><span>Hoy en la casa</span></div>
+        <div class="foot label"><span>CC Montaña Plaza · Local 4</span><span>311 566 2051</span></div>
+      </section>`);
+</script>
+<script src="../../assets/js/seal.js"></script>
+</body>
+</html>

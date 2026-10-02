@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Miércoles de Amigas — capa de campaña sobre alma.css
+   Elemento propio: el sello circular "Miércoles de Amigas · 15%".
+   ========================================================================== */
+
+/* Sello: SVG con texto curvo (Uncage) y el 15% en Aurora. Color = currentColor. */
+.seal { position: absolute; z-index: 8; width: 300px; height: 300px; }
+.seal svg { width: 100%; height: 100%; overflow: visible; }
+.seal .ring { fill: none; stroke: currentColor; stroke-width: 1.2; opacity: .55; }
+.seal .curve { font-family: var(--label); font-size: 21px; letter-spacing: 6.2px; text-transform: uppercase; fill: currentColor; font-weight: 500; }
+.seal .num { font-family: var(--serif); font-size: 112px; fill: currentColor; letter-spacing: -2px; }
+.seal .pct { font-family: var(--serif); font-style: italic; font-size: 56px; fill: currentColor; }
+.seal .sub { font-family: var(--label); font-size: 15px; letter-spacing: 4px; text-transform: uppercase; fill: currentColor; opacity: .85; }
+.seal.spin svg { transform: rotate(-12deg); }
+
+/* Etiqueta de serie (reemplaza el Nº de edición en esta campaña) */
+.serie { display: inline-flex; align-items: center; gap: 16px; }
+.serie::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: currentColor; }
+
+/* Letra pequeña: condiciones de la promo */
+.fine { font-family: var(--sans); font-size: 21px; line-height: 1.45; opacity: .78; }
+
+/* Zona segura de historias: nada importante en los 250 px de arriba ni en los 420 de abajo */
+.story .safe-top { top: 250px !important; }
