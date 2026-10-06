@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>04 · Los tonos de octubre — Alma House</title>
+<link rel="stylesheet" href="../../assets/css/alma.css">
+<link rel="stylesheet" href="../../assets/css/miercoles.css">
+<link rel="stylesheet" href="../../assets/css/octubre.css">
+<style>
+  /* Uña-muestra (misma pieza gráfica de "La edición de octubre") */
+  .nail { position: relative; width: 104px; height: 152px; border-radius: 50% 50% 46% 46% / 62% 62% 38% 38%; background: var(--c);
+    box-shadow: inset -8px -10px 20px rgba(0,0,0,.3), inset 6px 8px 14px rgba(255,255,255,.12), 0 14px 28px rgba(0,0,0,.35); }
+  .nail::after { content: ''; position: absolute; left: 26%; top: 12%; width: 18%; height: 42%; border-radius: 50%; background: linear-gradient(180deg, rgba(255,255,255,.7), rgba(255,255,255,0)); filter: blur(1.5px); transform: rotate(-8deg); }
+  .nail.dots { background-image: radial-gradient(circle, #F2E9DF 0 4.5px, transparent 5.5px); background-size: 26px 26px; background-position: 6px 8px; }
+
+  h2 { font-size: 112px; line-height: .9; letter-spacing: -.02em; color: var(--white-beach); }
+  h2 em { color: var(--rose); }
+  .intro { font-family: var(--serif); font-style: italic; font-size: 40px; color: rgba(247,239,231,.85); margin-top: 22px; }
+  .pairs { display: flex; flex-direction: column; }
+  .pair { display: grid; grid-template-columns: 160px 1fr; align-items: center; padding: 22px 0; border-top: 1px solid rgba(247,239,231,.18); }
+  .pair:last-child { border-bottom: 1px solid rgba(247,239,231,.18); }
+  .pair .k { color: var(--rose); margin-bottom: 10px; }
+  .pair .serif { font-size: 42px; line-height: 1.05; color: var(--white-beach); }
+  .pair .body { font-size: 26px; color: rgba(247,239,231,.8); margin-top: 6px; }
+
+  .p { display: grid; grid-template-columns: 1fr 330px; }
+  .p .col { padding: 150px 40px 110px 72px; display: flex; flex-direction: column; }
+  .p .pairs { margin-top: 36px; }
+  .p .nail { width: 88px; height: 128px; }
+  .p .pic { position: relative; overflow: hidden; }
+  .p .pic img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+
+  .s .photo { bottom: auto; height: 480px; }
+  .s .photo img { object-position: 50% 40%; }
+  .s .col { position: absolute; left: 72px; right: 72px; top: 540px; }
+  .s h2 { font-size: 118px; }
+  .s .pairs { margin-top: 32px; }
+  .s .pair { grid-template-columns: 170px 1fr; padding: 22px 0; }
+  .s .nail { width: 96px; height: 140px; }
+  .s .pair .serif { font-size: 46px; }
+  .s .cta { position: absolute; left: 72px; top: 1580px; color: var(--white-beach); }
+</style>
+</head>
+<body>
+
+<section class="slide p bg-night grain light-grain" data-file="04-post.png">
+  <div class="col">
+    <div class="masthead label" style="color:var(--rose); right: 402px"><span class="serie">Miércoles de Octubre</span></div>
+    <h2 class="serif">Los tonos<br><em>de octubre.</em></h2>
+    <p class="intro">Para llegar lista a la noche del 31.</p>
+    <div class="pairs">
+      <div class="pair"><div class="nail" style="--c:#4A1018"></div><div><p class="label sm k">Cereza negra</p><p class="serif">La reina de octubre</p><p class="body">Oscura, pero con fondo rojo.</p></div></div>
+      <div class="pair"><div class="nail" style="--c:#8E1C17"></div><div><p class="label sm k">Rojo casa</p><p class="serif">El que nunca falla</p><p class="body">De día, de noche, con todo.</p></div></div>
+      <div class="pair"><div class="nail" style="--c:#2B1D18"></div><div><p class="label sm k">Espresso</p><p class="serif">Casi negro</p><p class="body">Para las que no quieren el negro de siempre.</p></div></div>
+      <div class="pair"><div class="nail dots" style="--c:#151110"></div><div><p class="label sm k">Un guiño</p><p class="serif">Negro con lunares</p><p class="body">El detalle de temporada, sin disfraz.</p></div></div>
+    </div>
+  </div>
+  <div class="pic grade"><img src="../../assets/photos/octubre-rojo-libro.jpg" alt=""></div>
+</section>
+
+<section class="slide story s bg-night grain light-grain" data-file="04-historia.png">
+  <div class="photo grade"><img src="../../assets/photos/octubre-rojo-libro.jpg" alt=""></div>
+  <div class="col">
+    <p class="label" style="color:var(--rose); margin-bottom: 24px"><span class="serie">Miércoles de Octubre</span></p>
+    <h2 class="serif">Los tonos<br><em>de octubre.</em></h2>
+    <div class="pairs">
+      <div class="pair"><div class="nail" style="--c:#4A1018"></div><div><p class="label sm k">Cereza negra</p><p class="serif">La reina de octubre</p></div></div>
+      <div class="pair"><div class="nail" style="--c:#8E1C17"></div><div><p class="label sm k">Rojo casa</p><p class="serif">El que nunca falla</p></div></div>
+      <div class="pair"><div class="nail" style="--c:#2B1D18"></div><div><p class="label sm k">Espresso</p><p class="serif">Casi negro</p></div></div>
+      <div class="pair"><div class="nail dots" style="--c:#151110"></div><div><p class="label sm k">Un guiño</p><p class="serif">Negro con lunares</p></div></div>
+    </div>
+  </div>
+  <p class="cta label pill">¿Cuál es el tuyo? · 15% los miércoles</p>
+</section>
+
+</body>
+</html>

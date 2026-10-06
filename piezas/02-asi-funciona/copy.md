@@ -1,37 +1,36 @@
 # 02 · Así funciona tu miércoles
 
 **Formato:** post 1080×1350 + historia 1080×1920
-**Publicar:** miércoles 7 de octubre · 8:00 a. m. (primer Miércoles de Amigas)
-**Rol en la campaña:** explica la mecánica en tres pasos y deja la letra pequeña clara. El miércoles es el día con más espacio en la agenda, así que sirve para reservar el mismo día.
-**Perfil al que le habla:** la profesional ocupada, que quiere entender cómo funciona en 5 segundos.
+**Publicar:** miércoles 7 de octubre · post 8:00 a. m. · historia 9:00 a. m.
+**Rol en la campaña:** la mecánica, el día del primer miércoles. Tres pasos, sin letra pequeña escondida.
+**Perfil al que le habla:** la que ya vio el lanzamiento y quiere saber cómo se reserva.
 
 ## Caption
 
-Así funciona tu miércoles en Alma House:
+Así funciona tu miércoles de octubre:
 
-1. Escríbenos y reserva para ti y tu amiga.
-2. Vengan juntas, cualquier miércoles. Cada una en su silla, una al lado de la otra.
-3. Las dos tienen 15% en su servicio de manos o pies.
+1. Escríbenos por WhatsApp al 311 566 2051.
+2. Elige tu miércoles: 7, 14, 21 o 28 de octubre.
+3. Ven y disfruta 15% en cualquier servicio de la casa.
 
-Hoy es el primero. Todavía hay espacio.
+Así de simple. Hoy es el primero.
 
-WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
-
-Válido los miércoles con reserva previa para dos personas. No acumulable con otras promociones.
 
 ## Versión corta
 
-Miércoles de Amigas: reserven juntas, vengan un miércoles y las dos tienen 15% en su servicio. WhatsApp 311 566 2051.
+15% en todos los servicios, cada miércoles de octubre. Reserva por WhatsApp: 311 566 2051.
 
 ## Hashtags
 
-#AlmaHouse #MiercolesDeAmigas #Cajicá #ManicureCajicá #PedicureCajicá
+#AlmaHouse #MiercolesDeOctubre #Cajicá #NailBarCajicá #UñasDeTemporada #TuMomento
 
 ## Texto alternativo
 
-- Mano junto a un abanico de muestras de esmalte. "Así funciona tu miércoles: 1. Escríbenos. 2. Vengan juntas. 3. Las dos, 15%." Letra pequeña con las condiciones.
+- Post: columna con una mano de uñas rojo cereza junto al rostro. Texto: "Así funciona tu miércoles. 1. Escríbenos. 2. Elige tu miércoles: 7, 14, 21 o 28 de octubre. 3. 15% en todo, en cualquier servicio de la casa." Sello "Miércoles de Octubre · 15%".
+- Historia: la misma foto arriba y los tres pasos debajo.
 
 ## Notas
 
-- Escribir "Todavía hay espacio" solo si es verdad ese día. Si la agenda del miércoles ya está llena, cambiarlo por "Reserva para el próximo miércoles".
+- En la historia, sticker de enlace a `wa.me/573115662051` (texto: "Reservar").
+- La letra pequeña dice solo lo que confirmó Alma House: miércoles de octubre, todos los servicios, con reserva por WhatsApp.

@@ -1,6 +1,6 @@
-// Inyecta el sello "Miércoles de Amigas · 15%" en cada <div class="seal" data-sub="…">.
+// Inyecta el sello "Miércoles de Octubre · 15%" en cada <div class="seal" data-sub="…">.
 document.querySelectorAll('.seal').forEach((el, i) => {
-  const sub = el.dataset.sub ?? 'para las dos';
+  const sub = el.dataset.sub ?? 'en todo';
   const id = `arc${i}`;
   el.innerHTML = `
   <svg viewBox="0 0 300 300" aria-hidden="true">
@@ -8,7 +8,7 @@ document.querySelectorAll('.seal').forEach((el, i) => {
     <circle class="disc" cx="150" cy="150" r="150"/>
     <circle class="ring" cx="150" cy="150" r="141"/>
     <circle class="ring" cx="150" cy="150" r="92"/>
-    <text class="curve"><textPath href="#${id}" startOffset="0">Miércoles de Amigas · Alma House · </textPath></text>
+    <text class="curve"><textPath href="#${id}" startOffset="0">Miércoles de Octubre · Alma House · </textPath></text>
     <text x="142" y="172" text-anchor="middle"><tspan class="num">15</tspan><tspan class="pct" dy="-28">%</tspan></text>
     <text class="sub" x="150" y="205" text-anchor="middle">${sub}</text>
   </svg>`;

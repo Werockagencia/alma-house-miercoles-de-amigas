@@ -1,30 +1,30 @@
-# Captions · Miércoles de Amigas
+# Captions · Miércoles de Octubre
 
 Todos los captions en orden de publicación. Fuente: `piezas/<pieza>/copy.md`.
 
 ---
 
-## 01 · Los miércoles se comparten
+## 01 · Octubre se pinta oscuro
 **Lun 5 oct · 6:00 p. m.**
 
 ### Caption
 
-Los miércoles se comparten.
+Octubre se pinta oscuro.
 
-Desde este 7 de octubre, cada miércoles en Alma House es para venir con tu amiga: reservan juntas, se sientan una al lado de la otra y las dos tienen 15% en su servicio.
+Este mes, cada miércoles en Alma House tiene 15% en todos los servicios. Cereza negra, rojo casa, espresso… los tonos de la temporada, con calma y un café de por medio.
 
-Café, conversación (o silencio, si así lo prefieren) y uñas nuevas para las dos.
+Miércoles 7, 14, 21 y 28 de octubre. Solo con reserva.
 
-¿Ya sabes con quién vienes?
+¿Cuál es tu miércoles?
 
-Reserven por WhatsApp: 311 566 2051
+Reserva tu momento por WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
 
-#AlmaHouse #MiercolesDeAmigas #Cajicá #NailBarCajicá #PlanConAmigas #TuMomento
+#AlmaHouse #MiercolesDeOctubre #Halloween #Cajicá #NailBarCajicá #UñasDeTemporada #TuMomento
 
 ### Versión corta
 
-Nuevo en Alma House: el Miércoles de Amigas. Ven con tu amiga y las dos tienen 15% en su servicio. Reserven juntas por WhatsApp: 311 566 2051.
+Todos los miércoles de octubre: 15% en todos los servicios de Alma House. Reserva tu momento por WhatsApp: 311 566 2051.
 
 ---
 
@@ -33,92 +33,90 @@ Nuevo en Alma House: el Miércoles de Amigas. Ven con tu amiga y las dos tienen 
 
 ### Caption
 
-Así funciona tu miércoles en Alma House:
+Así funciona tu miércoles de octubre:
 
-1. Escríbenos y reserva para ti y tu amiga.
-2. Vengan juntas, cualquier miércoles. Cada una en su silla, una al lado de la otra.
-3. Las dos tienen 15% en su servicio de manos o pies.
+1. Escríbenos por WhatsApp al 311 566 2051.
+2. Elige tu miércoles: 7, 14, 21 o 28 de octubre.
+3. Ven y disfruta 15% en cualquier servicio de la casa.
 
-Hoy es el primero. Todavía hay espacio.
+Así de simple. Hoy es el primero.
 
-WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
 
-Válido los miércoles con reserva previa para dos personas. No acumulable con otras promociones.
-
-#AlmaHouse #MiercolesDeAmigas #Cajicá #ManicureCajicá #PedicureCajicá
+#AlmaHouse #MiercolesDeOctubre #Cajicá #NailBarCajicá #UñasDeTemporada #TuMomento
 
 ### Versión corta
 
-Miércoles de Amigas: reserven juntas, vengan un miércoles y las dos tienen 15% en su servicio. WhatsApp 311 566 2051.
+15% en todos los servicios, cada miércoles de octubre. Reserva por WhatsApp: 311 566 2051.
 
 ---
 
-## 03 · Estás invitada
+## 03 · Tu cita de octubre
 **Mié 14 oct · 8:00 a. m.**
 
 ### Caption
 
-Estás invitada.
+Tienes una cita.
 
-Tú, tu amiga y un miércoles para las dos en Alma House. 15% para cada una.
+Un miércoles de octubre, tú, tus manos y un momento solo para ti. Sin afán, con un café, y con 15% en todos los servicios.
 
-Etiqueta a la amiga con la que vendrías (o envíale esta invitación por DM, como debe ser).
+Guárdala para tu miércoles, o envíasela a quien la necesita.
 
-Reserven juntas: 311 566 2051
+Reserva por WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
 
-#AlmaHouse #MiercolesDeAmigas #EstásInvitada #Cajicá #NailBarCajicá
+#AlmaHouse #MiercolesDeOctubre #Cajicá #NailBarCajicá #TuMomento #PausaParaTi
 
 ### Versión corta
 
-Estás invitada: tú, tu amiga y un miércoles en Alma House, con 15% para cada una. Reserven: 311 566 2051.
+Tu cita de octubre: un miércoles, un momento para ti y 15% en todos los servicios. Reserva: 311 566 2051.
 
 ---
 
-## 04 · El plan de mitad de semana
+## 04 · Los tonos de octubre
 **Mié 21 oct · 8:00 a. m.**
 
 ### Caption
 
-El mejor plan de mitad de semana no es un after office.
+Los tonos de octubre, para llegar lista a la noche del 31:
 
-Es tu amiga, un café de por medio y uñas nuevas para las dos. Un momento para ponerse al día sin mirar el reloj.
+Cereza negra: la reina de octubre.
+Rojo casa: el que nunca falla.
+Espresso: casi negro, para las que no quieren el de siempre.
+Negro con lunares: el guiño de temporada, sin disfraz.
 
-Y los miércoles, las dos tienen 15%.
+¿Cuál es el tuyo? Cuéntanos en comentarios y reserva tu miércoles con 15% en todos los servicios.
 
-Reserven juntas: 311 566 2051
+WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
 
-#AlmaHouse #MiercolesDeAmigas #PlanConAmigas #Cajicá #MitadDeSemana
+#AlmaHouse #MiercolesDeOctubre #UñasDeTemporada #UñasHalloween #Cajicá #NailBarCajicá
 
 ### Versión corta
 
-El mejor plan de mitad de semana: tu amiga, un café y uñas nuevas para las dos, con 15% cada una. Miércoles de Amigas en Alma House. 311 566 2051.
+Cereza negra, rojo casa, espresso o negro con lunares: los tonos de octubre, con 15% cada miércoles. Reserva: 311 566 2051.
 
 ---
 
-## 05 · ¿Iguales u opuestas?
+## 05 · No necesitas disfraz
 **Mié 28 oct · 8:00 a. m.**
 
 ### Caption
 
-¿Iguales u opuestas?
+No necesitas disfraz. Solo tus uñas.
 
-Gemelas: rojo casa + rojo casa. Para las que lo hacen todo juntas.
-Opuestas: cereza negra + leche de almendra. La noche y el día, en la misma mesa.
-Cómplices: café con leche + verde oliva. Distintas, pero se entienden.
+Hoy es el último miércoles de octubre con 15% en todos los servicios. Llega lista a la noche del 31: oscuras, rojas o con un guiño de lunares.
 
-¿Cuál son ustedes? Cuéntanos en comentarios y etiqueta a tu amiga.
+Quedan los últimos cupos del día.
 
-Miércoles de Amigas: 15% para las dos.
-Reserven: 311 566 2051 · CC Montaña Plaza, local 4 · Cajicá
+Reserva por WhatsApp: 311 566 2051
+CC Montaña Plaza, local 4 · Cajicá
 
-#AlmaHouse #MiercolesDeAmigas #UñasOtoño #Cajicá #NailBarCajicá
+#AlmaHouse #MiercolesDeOctubre #Halloween #UñasHalloween #Cajicá #NailBarCajicá
 
 ### Versión corta
 
-¿Gemelas, opuestas o cómplices? Elijan sus tonos y vengan juntas un miércoles: 15% para las dos en Alma House. 311 566 2051.
+Último miércoles con 15% en todos los servicios, antes de la noche del 31. Reserva: 311 566 2051.
 
 ---
 
@@ -128,16 +126,15 @@ Reserven: 311 566 2051 · CC Montaña Plaza, local 4 · Cajicá
 ### Caption
 
 Hoy es miércoles.
-¿Ya le escribiste a tu amiga?
 
-Las dos tienen 15% en Alma House, hoy y todos los miércoles.
+¿Ya reservaste tu momento? Hoy tienes 15% en todos los servicios de Alma House.
 
-Reserven: 311 566 2051
+WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
 
-#AlmaHouse #MiercolesDeAmigas #Cajicá #NailBarCajicá
+#AlmaHouse #MiercolesDeOctubre #Cajicá #NailBarCajicá #TuMomento
 
 ### Versión corta
 
-Hoy es miércoles: tú y tu amiga tienen 15% cada una en Alma House. Reserven: 311 566 2051.
+Hoy es miércoles: 15% en todos los servicios. Reserva por WhatsApp: 311 566 2051.
 

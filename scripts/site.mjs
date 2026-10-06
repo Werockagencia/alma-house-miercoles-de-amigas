@@ -55,7 +55,7 @@ const web = async (src, name, flatten) => {
 // JPG en tamaño completo para descargar una por una (calidad alta, listo para Instagram)
 await mkdir(path.join(ROOT, 'descargas'), { recursive: true });
 const full = async (src, name) => {
-  await sharp(src).flatten({ background: '#F7EFE7' }).jpeg({ quality: 93, chromaSubsampling: '4:4:4', mozjpeg: true }).toFile(path.join(ROOT, 'descargas', name));
+  await sharp(src).flatten({ background: '#1C1411' }).jpeg({ quality: 93, chromaSubsampling: '4:4:4', mozjpeg: true }).toFile(path.join(ROOT, 'descargas', name));
   return `descargas/${name}`;
 };
 
@@ -66,13 +66,13 @@ for (const p of plan) {
   const post = await web(path.join(dir, 'export', `${p.n}-post.png`), `${p.n}-post.jpg`);
   const story = await web(path.join(dir, 'export', `${p.n}-historia.png`), `${p.n}-historia.jpg`);
   const slug = p.dir.replace(/^\d+-/, '');
-  const postJpg = await full(path.join(dir, 'export', `${p.n}-post.png`), `alma-house-miercoles-${p.n}-${slug}-post.jpg`);
-  const storyJpg = await full(path.join(dir, 'export', `${p.n}-historia.png`), `alma-house-miercoles-${p.n}-${slug}-historia.jpg`);
+  const postJpg = await full(path.join(dir, 'export', `${p.n}-post.png`), `alma-house-octubre-${p.n}-${slug}-post.jpg`);
+  const storyJpg = await full(path.join(dir, 'export', `${p.n}-historia.png`), `alma-house-octubre-${p.n}-${slug}-historia.jpg`);
   pieces.push({ ...p, meta, sections, post, story, postJpg, storyJpg, postPng: `piezas/${p.dir}/export/${p.n}-post.png`, storyPng: `piezas/${p.dir}/export/${p.n}-historia.png` });
 }
 
 // ---------- CAPTIONS.md ----------
-let caps = `# Captions · Miércoles de Amigas\n\nTodos los captions en orden de publicación. Fuente: \`piezas/<pieza>/copy.md\`.\n\n`;
+let caps = `# Captions · Miércoles de Octubre\n\nTodos los captions en orden de publicación. Fuente: \`piezas/<pieza>/copy.md\`.\n\n`;
 for (const p of pieces) caps += `---\n\n## ${p.n} · ${p.title}\n**${p.date} · ${p.time}**\n\n### Caption\n\n${p.sections['Caption']}\n\n${p.sections['Hashtags'] ?? ''}\n\n### Versión corta\n\n${p.sections['Versión corta'] ?? ''}\n\n`;
 await writeFile(path.join(ROOT, 'CAPTIONS.md'), caps);
 
@@ -105,7 +105,7 @@ const html = `<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Miércoles de Amigas · Alma House</title>
+<title>Miércoles de Octubre · Alma House</title>
 <link rel="icon" href="assets/brand/logos/isotipo-terracota.png">
 <style>
 @font-face{font-family:'Aurora';src:url('assets/brand/fonts/aurora-serif.otf');font-style:normal}
@@ -122,16 +122,16 @@ img{display:block;max-width:100%}
 .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
 .serif{font-family:'Aurora',Georgia,serif;font-weight:400}
 
-.hero{background:var(--blush);padding:40px 0 80px;color:var(--espresso)}
-.mast{display:flex;align-items:center;gap:20px;color:var(--brown)}
+.hero{background:#1C1411;padding:40px 0 80px;color:var(--cream)}
+.mast{display:flex;align-items:center;gap:20px;color:var(--blush)}
 .mast .rule{flex:1;height:1px;background:currentColor;opacity:.3}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;margin-top:64px}
 .hero h1{font-family:'Aurora',serif;font-weight:400;font-size:clamp(50px,6.6vw,100px);line-height:.86;letter-spacing:-.03em}
-.hero h1 em{color:var(--brown)}
+.hero h1 em{color:var(--blush)}
 .hero .lede{font-family:'Aurora',serif;font-style:italic;-webkit-text-stroke:.4px currentColor;font-size:clamp(22px,2.4vw,30px);line-height:1.25;margin-top:30px;max-width:32ch}
-.hero .by{margin-top:34px;color:var(--brown);line-height:2}
+.hero .by{margin-top:34px;color:var(--blush);line-height:2}
 .hero .pair{display:grid;grid-template-columns:1fr .62fr;gap:16px;align-items:end}
-.hero .pair img{border-radius:4px;box-shadow:0 30px 70px rgba(42,31,26,.25)}
+.hero .pair img{border-radius:4px;box-shadow:0 30px 70px rgba(0,0,0,.5)}
 
 .sec{padding:80px 0 10px}
 .sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:30px;flex-wrap:wrap}
@@ -182,7 +182,7 @@ code{font-size:12.5px;background:rgba(153,71,29,.08);padding:1px 5px;border-radi
 .btn{display:inline-block;border:1px solid var(--brown);color:var(--brown);text-decoration:none;border-radius:999px;padding:11px 18px;font-family:'Uncage',sans-serif;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase}
 .btn:hover{background:var(--brown);color:var(--cream)}
 
-.foot{background:var(--forest);color:var(--cream);margin-top:90px;padding:64px 0}
+.foot{background:#1C1411;color:var(--cream);margin-top:90px;padding:64px 0}
 .foot-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
 .foot h4{font-family:'Aurora',serif;font-weight:400;font-size:30px;line-height:1.05;margin-bottom:14px}
 .foot p{color:rgba(247,239,231,.92);font-size:15.5px;margin-bottom:12px}
@@ -213,23 +213,23 @@ code{font-size:12.5px;background:rgba(153,71,29,.08);padding:1px 5px;border-radi
     <div class="mast label"><span>Alma House · Nails Bar</span><span class="rule"></span><span>Campaña · Octubre 2026</span></div>
     <div class="hero-grid">
       <div>
-        <h1>Los miércoles<br><em>se comparten.</em></h1>
-        <p class="lede">Miércoles de Amigas: convertir el día más tranquilo de la semana en el plan favorito de dos.</p>
+        <h1>Octubre<br><em>se pinta oscuro.</em></h1>
+        <p class="lede">Miércoles de Octubre: la temporada de Halloween de Alma House, sin disfraz. Cada miércoles del mes, 15% en todos los servicios.</p>
         <p class="by label">6 piezas · post + historia<br>Dirección creativa · We Rock Agencia</p>
       </div>
-      <div class="pair"><img src="${pieces[0].post}" alt="Post de lanzamiento: Los miércoles se comparten"><img src="${pieces[0].story}" alt="Historia de lanzamiento"></div>
+      <div class="pair"><img src="${pieces[0].post}" alt="Post de lanzamiento: Octubre se pinta oscuro"><img src="${pieces[0].story}" alt="Historia de lanzamiento"></div>
     </div>
   </div>
 </header>
 
 <main class="wrap">
   <section class="sec">
-    <div class="sec-h"><h3>La promo</h3><span class="label">Mecánica propuesta</span></div>
+    <div class="sec-h"><h3>La promo</h3><span class="label">Confirmada por Alma House</span></div>
     <dl class="terms">
-      <dt>Qué</dt><dd>15% para cada una en su servicio de manos o pies.</dd>
-      <dt>Cuándo</dt><dd>Todos los miércoles, desde el 7 de octubre.</dd>
-      <dt>Cómo</dt><dd>Reservando juntas por WhatsApp (311 566 2051). No acumulable con otras promociones.</dd>
-      <p class="warn">Por confirmar con Alma House antes de publicar: servicios incluidos, si aplica a dos o más amigas y si tiene fecha de cierre.</p>
+      <dt>Qué</dt><dd>15% en todos los servicios.</dd>
+      <dt>Cuándo</dt><dd>Todos los miércoles de octubre: 7, 14, 21 y 28.</dd>
+      <dt>Cómo</dt><dd>Con reserva por WhatsApp (311 566 2051).</dd>
+      <p class="warn">Antes del 21 de octubre: confirmar que los tonos de la pieza 04 (cereza negra, rojo, espresso y negro con lunares) están disponibles. Miércoles de Amigas pasa a noviembre, con la carta de cócteles.</p>
     </dl>
   </section>
 

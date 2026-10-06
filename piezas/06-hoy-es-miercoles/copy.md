@@ -1,33 +1,31 @@
 # 06 · Hoy es miércoles
 
 **Formato:** post 1080×1350 + historia 1080×1920
-**Publicar:** la **historia, todos los miércoles a las 11:00 a. m.** desde el 14 de octubre, como recordatorio. El **post**, un miércoles sin pieza nueva (sugerido: miércoles 4 de noviembre).
-**Rol en la campaña:** el recordatorio que convierte. Corto, directo, con humor suave; funciona cada semana sin desgastarse.
-**Perfil al que le habla:** quien vio la promo, le gustó y todavía no ha escrito.
+**Publicar:** cada miércoles de octubre (7, 14, 21 y 28) · historia 11:00 a. m. El post es opcional, para un miércoles sin otra pieza.
+**Rol en la campaña:** el recordatorio semanal. Pieza fija que se repite para que el miércoles se vuelva costumbre.
+**Perfil al que le habla:** la que vio la promo y aún no reserva.
 
 ## Caption
 
 Hoy es miércoles.
-¿Ya le escribiste a tu amiga?
 
-Las dos tienen 15% en Alma House, hoy y todos los miércoles.
+¿Ya reservaste tu momento? Hoy tienes 15% en todos los servicios de Alma House.
 
-Reserven: 311 566 2051
+WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
 
 ## Versión corta
 
-Hoy es miércoles: tú y tu amiga tienen 15% cada una en Alma House. Reserven: 311 566 2051.
+Hoy es miércoles: 15% en todos los servicios. Reserva por WhatsApp: 311 566 2051.
 
 ## Hashtags
 
-#AlmaHouse #MiercolesDeAmigas #Cajicá #NailBarCajicá
+#AlmaHouse #MiercolesDeOctubre #Cajicá #NailBarCajicá #TuMomento
 
 ## Texto alternativo
 
-- Fondo rosa empolvado con el texto "Hoy es miércoles." y una foto en arco de dos manos con anillos que sostienen un helado. "¿Ya le escribiste a tu amiga?" Sello "Miércoles de Amigas · 15%".
+- Post e historia: fondo oscuro con el texto "Hoy es miércoles" en grande, foto en arco de una mano con uñas rojas y un blazer verde oliva, y el sello "Miércoles de Octubre · 15%". Pregunta: "¿Ya reservaste tu momento?"
 
 ## Notas
 
-- En la historia, agregar el sticker de **enlace** a WhatsApp. La noche del martes, se puede subir con un sticker de **cuenta regresiva** ("Miércoles de Amigas").
-- Si un miércoles ya está lleno, no publicarla ese día: la escasez real también vende.
+- Historia: sticker de enlace a WhatsApp. El 28 se puede reemplazar por la historia de la pieza 05.

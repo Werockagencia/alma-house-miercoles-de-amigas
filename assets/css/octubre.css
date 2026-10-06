@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Miércoles de Octubre — versión nocturna del sistema de Miércoles de Amigas
+   Temporada de Halloween sin disfraz: fondos espresso, fotos más profundas,
+   acentos en rosa empolvado y el sello sólido en el café de los botones.
+   ========================================================================== */
+
+:root { --night: #1C1411; --night-2: #2A1F1A; --rose: #CEBAAA; --bakery: #AF9175; }
+
+.bg-night { background: var(--night); color: var(--white-beach); }
+
+/* Fotos un punto más oscuras y cálidas: se leen como una sola sesión nocturna */
+.grade img { filter: sepia(.16) saturate(.9) contrast(1.08) brightness(.86); }
+
+/* Sobre fondo oscuro el sello lleva un aro crema para separarse */
+.seal.night svg { filter: drop-shadow(0 12px 30px rgba(0,0,0,.5)); }
+.seal.night .disc { stroke: rgba(247,239,231,.55); stroke-width: 3; }
+
+/* Pequeña luna creciente que acompaña la serie (reemplaza el punto de .serie) */
+.serie::before { width: 14px; height: 14px; background: none; box-shadow: inset -5px 2px 0 0 currentColor; transform: rotate(-20deg); }
+
+.fine { color: rgba(247,239,231,.82); }

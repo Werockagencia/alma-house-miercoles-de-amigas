@@ -1,65 +1,63 @@
-# Alma House · Miércoles de Amigas
+# Alma House · Miércoles de Octubre
 
-**Campaña de promociones de los miércoles · octubre 2026**
+**Campaña de los miércoles · octubre 2026 · temporada de Halloween**
 Por **We Rock Agencia** para Alma House Nails Bar (Cajicá).
 
 **Página para la cliente:** https://werockagencia.github.io/alma-house-miercoles-de-amigas/
 **Todos los captions:** [CAPTIONS.md](CAPTIONS.md)
+**Miércoles de Amigas (noviembre):** guardado completo en la rama [`amigas-noviembre`](https://github.com/Werockagencia/alma-house-miercoles-de-amigas/tree/amigas-noviembre), listo para retomarlo con la carta de cócteles.
 
 ---
 
 ## El brief
 
-> Los miércoles son nuestros días más solitos; queremos moverlos con promociones. Podríamos iniciar con un 15%, como un miércoles de amigas. — Alma House
+Alma House mueve **Miércoles de Amigas a noviembre**, para lanzarlo como combo con la nueva carta de cócteles (lista a finales de octubre). En octubre va un **15% por Halloween**. Las imágenes de Amigas le encantaron, así que esta campaña conserva ese sistema visual.
 
-(La guía y el kit de historias con la tipografía de Alma van en otra URL.)
+## La idea: *Octubre se pinta oscuro*
 
-## La idea: *Los miércoles se comparten*
+- **Halloween sin disfraz.** Nada de calabazas ni telarañas: la temporada se cuenta con tonos de uña (cereza negra, rojo, espresso, un guiño de lunares) y una versión nocturna del sistema de Amigas: fondos espresso, fotos más profundas y acentos en rosa empolvado.
+- **El 15% como temporada, no como rebaja.** Se comunica como "los miércoles de octubre" de la casa, con fecha de cierre real (28 de octubre, antes de la noche del 31).
+- **Mismo sello, otro texto:** "Miércoles de Octubre · 15% · en todo". Así Amigas queda intacto para noviembre.
 
-- **Una promo que suma, no que abarata.** Alma House no compite por precio, así que el 15% no se comunica como "descuento", sino como un **ritual para dos**. Lo que se vende es el plan con la amiga; el 15% es la excusa.
-- **El día más solo se llena de a dos.** Cada reserva trae dos clientas, y muchas veces una es nueva. Es boca a boca con mecánica.
-- **Mismo lenguaje de marca** que el Capítulo III (tipografía, paleta, tono), más un elemento propio: el **sello circular "Miércoles de Amigas · 15%"**, para que la promo se reconozca al instante.
-
-### Mecánica propuesta (por confirmar con la cliente)
+### Mecánica (confirmada por Alma House el 2 de octubre)
 
 | | |
 |---|---|
-| Qué | 15% para cada una en su servicio de manos o pies |
-| Cuándo | Todos los miércoles, desde el 7 de octubre |
-| Cómo | Reservando juntas por WhatsApp (311 566 2051). No acumulable con otras promociones |
+| Qué | 15% en todos los servicios |
+| Cuándo | Todos los miércoles de octubre: 7, 14, 21 y 28 |
+| Cómo | Con reserva por WhatsApp (311 566 2051) |
 
-- [ ] Confirmar qué servicios incluye
-- [ ] Confirmar si aplica a dos amigas o a grupos
-- [ ] Confirmar si tiene fecha de cierre
-- [ ] Confirmar fecha de arranque (7 de octubre)
+### Por validar
+
+- [ ] Que los tonos de la pieza 04 (cereza negra, rojo, espresso, negro con lunares) estén disponibles, antes del 21 de octubre.
+- [ ] Si la promo se acumula con otras (por ahora no se dice nada en las piezas).
 
 ## Las piezas (post 1080×1350 + historia 1080×1920 cada una)
 
 | Fecha | # | Pieza | Rol |
 |---|---|---|---|
-| Lun 5 oct · 6:00 p. m. | 01 | [Los miércoles se comparten](piezas/01-los-miercoles-se-comparten/copy.md) | Lanzamiento, con tiempo para coordinar con la amiga |
-| Mié 7 oct · 8:00 a. m. | 02 | [Así funciona tu miércoles](piezas/02-asi-funciona/copy.md) | La mecánica en 3 pasos + letra pequeña |
-| Mié 14 oct · 8:00 a. m. | 03 | [Estás invitada](piezas/03-estas-invitada/copy.md) | Invitación para etiquetar y enviar: alcance orgánico |
-| Mié 21 oct · 8:00 a. m. | 04 | [El plan de mitad de semana](piezas/04-el-plan-de-mitad-de-semana/copy.md) | Alma House compite con el after office, no con otro salón |
-| Mié 28 oct · 8:00 a. m. | 05 | [¿Iguales u opuestas?](piezas/05-tonos-para-dos/copy.md) | Juego de tonos entre amigas (retoma La edición de octubre) |
-| Cada miércoles · 11:00 a. m. | 06 | [Hoy es miércoles](piezas/06-hoy-es-miercoles/copy.md) | Recordatorio semanal en historia; el post, para un miércoles sin pieza nueva |
+| Lun 5 oct · 6:00 p. m. | 01 | [Octubre se pinta oscuro](piezas/01-octubre-se-pinta-oscuro/copy.md) | Lanzamiento, antes del primer miércoles |
+| Mié 7 oct · 8:00 a. m. | 02 | [Así funciona tu miércoles](piezas/02-asi-funciona/copy.md) | La mecánica en tres pasos |
+| Mié 14 oct · 8:00 a. m. | 03 | [Tu cita de octubre](piezas/03-tu-cita-de-octubre/copy.md) | Para guardar y compartir |
+| Mié 21 oct · 8:00 a. m. | 04 | [Los tonos de octubre](piezas/04-los-tonos-de-octubre/copy.md) | Curaduría con guiño de Halloween |
+| Mié 28 oct · 8:00 a. m. | 05 | [No necesitas disfraz](piezas/05-la-noche-del-31/copy.md) | Último miércoles, antes del 31 |
+| Cada miércoles · 11:00 a. m. | 06 | [Hoy es miércoles](piezas/06-hoy-es-miercoles/copy.md) | Recordatorio semanal (historia) |
 
-Los posts de la promo salen los **miércoles**: es el día de la campaña, y como es el más libre, se puede reservar el mismo día. Conviven con la parrilla del Capítulo III (martes y jueves).
+Los posts regulares de martes y jueves siguen su calendario; estas piezas ocupan los miércoles.
 
-**Lenguaje:** se habla de *momento*, nunca de *hora*. Dirección: CC Montaña Plaza, **local 4**, Cajicá.
+## Sistema visual
 
-**Nota de derechos:** las fotos son de terceros, tomadas del tablero de Pinterest aprobado por la cliente ([SOURCES.md](assets/pinterest/SOURCES.md)). **Uso: contenido orgánico, no pauta.**
+- `assets/css/alma.css` (tokens de marca) + `miercoles.css` (sello y legibilidad, heredados de Amigas) + `octubre.css` (versión nocturna).
+- Fotos: tablero de Pinterest de la cliente (pines 44, 54, 47, 50, 02 y 01). Al pin 44 se le recorta un texto de tienda que traía abajo.
 
-## Editar y volver a exportar
+## Derechos
 
-Requiere Node 18+ y Google Chrome instalado.
+Las fotografías vienen del tablero de Pinterest aprobado por Alma House y pertenecen a sus autores ([SOURCES.md](assets/pinterest/SOURCES.md)). Uso **orgánico, no pauta paga**. Para pautar, reemplazarlas por fotos propias.
+
+## Re-exportar
 
 ```bash
 npm install
-npm run build          # fotos + render + página
-npm run render -- 03   # re-exporta solo la pieza 03
-npm run site           # regenera index.html, web/ y CAPTIONS.md
+npm run build        # fotos + PNG + página y CAPTIONS.md
+npm run render -- 04 # solo una pieza
 ```
-
-- Cada `<section class="slide" data-file="…">` de `piezas/*/slides.html` es un PNG. `data-transparent` exporta con fondo transparente.
-- El sello se dibuja con `assets/js/seal.js`; los estilos de campaña están en `assets/css/miercoles.css`, encima de `alma.css`.
