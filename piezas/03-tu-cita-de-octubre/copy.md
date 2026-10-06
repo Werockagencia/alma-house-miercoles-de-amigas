@@ -7,9 +7,9 @@
 
 ## Caption
 
-Tienes una cita.
+Tienes una cita… y viene con 15% en todos los servicios.
 
-Un miércoles de octubre, tú, tus manos y un momento solo para ti. Sin afán, con un café, y con 15% en todos los servicios.
+Un miércoles de octubre, tú, tus manos y un momento solo para ti. Sin afán y con un café.
 
 Guárdala para tu miércoles, o envíasela a quien la necesita.
 
@@ -26,7 +26,7 @@ Tu cita de octubre: un miércoles, un momento para ti y 15% en todos los servici
 
 ## Texto alternativo
 
-- Post e historia: tarjeta oscura de invitación sobre fondo terracota, con una foto tipo polaroid de una mano de uñas rojo cereza sosteniendo un as de picas. Texto: "Tienes una cita. Un miércoles de octubre. Tú, tus manos y un momento solo para ti. 15% en todos los servicios · Con reserva."
+- Post e historia: tarjeta oscura de invitación sobre fondo terracota, con una foto tipo polaroid de una mano de uñas rojo cereza sosteniendo un as de picas. Texto: "Tienes una cita. Un miércoles de octubre, y un momento solo para ti." En grande: "15% en todos los servicios, es tu regalo".
 
 ## Notas
 

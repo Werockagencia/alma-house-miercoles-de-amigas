@@ -7,9 +7,9 @@
 
 ## Caption
 
-Octubre se pinta oscuro.
+15% en todos los servicios, todos los miércoles de octubre. 🖤
 
-Este mes, cada miércoles en Alma House tiene 15% en todos los servicios. Cereza negra, rojo casa, espresso… los tonos de la temporada, con calma y un café de por medio.
+Octubre se pinta oscuro en Alma House. Cereza negra, rojo casa, espresso… los tonos de la temporada, con calma y un café de por medio.
 
 Miércoles 7, 14, 21 y 28 de octubre. Solo con reserva.
 
@@ -28,7 +28,7 @@ Todos los miércoles de octubre: 15% en todos los servicios de Alma House. Reser
 
 ## Texto alternativo
 
-- Post e historia: una mujer de espaldas se cubre el cabello con las dos manos; uñas largas rojo cereza y anillos dorados. Sello "Miércoles de Octubre · 15% en todo". Texto: "Octubre se pinta oscuro. Cada miércoles del mes, 15% en todos los servicios."
+- Post e historia: una mujer de espaldas se cubre el cabello con las dos manos; uñas largas rojo cereza y anillos dorados. Sello "Miércoles de Octubre · 15% en todo". Texto: "Octubre se pinta oscuro." y en grande: "15% en todos los servicios, cada miércoles de octubre".
 
 ## Notas
 

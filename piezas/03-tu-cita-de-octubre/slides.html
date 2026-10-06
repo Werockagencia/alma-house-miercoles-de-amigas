@@ -7,35 +7,35 @@
 <link rel="stylesheet" href="../../assets/css/miercoles.css">
 <link rel="stylesheet" href="../../assets/css/octubre.css">
 <style>
-  /* Tarjeta de invitación sobre terracota, con la foto como "polaroid" detrás */
+  /* Tarjeta de invitación sobre terracota: el 15% es el regalo de la tarjeta */
   .card {
     position: absolute; z-index: 6; background: var(--night-2); color: var(--white-beach);
-    box-shadow: 0 30px 70px rgba(20,10,5,.45); padding: 64px 64px 56px; text-align: center;
+    box-shadow: 0 30px 70px rgba(20,10,5,.45); padding: 58px 60px 50px; text-align: center;
   }
   .card::before { content: ''; position: absolute; inset: 18px; border: 1px solid rgba(206,186,170,.4); pointer-events: none; }
-  .card .iso { width: 70px; margin: 0 auto 30px; display: block; }
+  .card .iso { width: 56px; margin: 0 auto 22px; display: block; }
   .card .label { color: var(--rose); }
-  .card h2 { font-size: 112px; line-height: .9; letter-spacing: -.02em; margin: 26px 0 30px; }
+  .card h2 { font-size: 92px; line-height: .9; letter-spacing: -.02em; margin: 20px 0 18px; }
   .card h2 em { color: var(--rose); }
-  .card .who { font-family: var(--serif); font-size: 46px; line-height: 1.2; }
-  .card .who em { color: var(--rose); }
+  .card .who { font-family: var(--serif); font-style: italic; font-size: 38px; line-height: 1.2; color: rgba(247,239,231,.9); }
+  .card .offer { --o: 190px; margin: 34px 0 6px; text-align: left; }
   .card .meta.label { font-size: 16px; letter-spacing: .16em; }
-  .card .meta { margin-top: 34px; padding-top: 28px; border-top: 1px solid rgba(247,239,231,.18); line-height: 1.9; color: rgba(247,239,231,.85); }
+  .card .meta { margin-top: 30px; padding-top: 24px; border-top: 1px solid rgba(247,239,231,.18); line-height: 1.9; color: rgba(247,239,231,.85); }
   .snap { position: absolute; z-index: 4; background: #fff; padding: 18px 18px 70px; box-shadow: 0 24px 50px rgba(20,10,5,.4); }
   .snap img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 55% 50%; }
 
-  .p .snap { left: 560px; top: 90px; width: 440px; height: 560px; transform: rotate(6deg); }
-  .p .card { left: 90px; top: 330px; width: 640px; transform: rotate(-3deg); }
-  .p .foot { position: absolute; left: 72px; right: 72px; bottom: 70px; z-index: 7; color: var(--white-beach); display: flex; justify-content: space-between; }
+  .p .snap { left: 600px; top: 110px; width: 400px; height: 500px; transform: rotate(6deg); }
+  .p .card { left: 80px; top: 200px; width: 680px; transform: rotate(-3deg); }
+  .p .foot { position: absolute; left: 72px; right: 72px; bottom: 64px; z-index: 7; color: var(--white-beach); display: flex; justify-content: space-between; }
 
-  .s .snap { left: 440px; top: 270px; width: 560px; height: 700px; transform: rotate(6deg); }
-  .s .card { padding: 80px 70px 70px; }
-  .s .card h2 { font-size: 136px; }
-  .s .card .who { font-size: 52px; }
-  .s .card .iso { width: 90px; }
-  .s .card { left: 80px; top: 640px; width: 860px; transform: rotate(-3deg); }
-  .s .cta { position: absolute; left: 72px; width: 340px; top: 330px; z-index: 7; color: var(--white-beach); text-align: left; }
-  .s .cta p.serif { font-size: 58px; line-height: 1.05; font-style: italic; }
+  .s .snap { left: 470px; top: 270px; width: 530px; height: 640px; transform: rotate(6deg); }
+  .s .card { left: 72px; top: 540px; width: 880px; transform: rotate(-3deg); padding: 70px 70px 60px; }
+  .s .card h2 { font-size: 116px; }
+  .s .card .who { font-size: 44px; }
+  .s .card .iso { width: 70px; }
+  .s .card .offer { --o: 230px; }
+  .s .cta { position: absolute; left: 72px; width: 360px; top: 330px; z-index: 7; color: var(--white-beach); text-align: left; }
+  .s .cta p.serif { font-size: 56px; line-height: 1.05; font-style: italic; }
 </style>
 </head>
 <body>
@@ -47,10 +47,11 @@
     <img class="iso" src="../../assets/brand/logos/isotipo-crema.png" alt="">
     <p class="label sm">Tienes una cita</p>
     <h2 class="serif">Un miércoles<br><em>de octubre.</em></h2>
-    <p class="who">Tú, tus manos<br>y un <em>momento</em><br>solo para ti.</p>
-    <p class="meta label sm">15% en todos los servicios · Con reserva<br>CC Montaña Plaza, local 4 · Cajicá</p>
+    <p class="who">y un momento solo para ti</p>
+    <div class="offer center"><p class="num">15<i>%</i></p><div class="what"><b>En todos<br>los servicios</b><span>es tu regalo</span></div></div>
+    <p class="meta label sm">Con reserva por WhatsApp · 311 566 2051<br>CC Montaña Plaza, local 4 · Cajicá</p>
   </div>
-  <div class="foot label sm"><span>Guárdala para tu miércoles</span><span>311 566 2051</span></div>
+  <div class="foot label sm"><span>Guárdala para tu miércoles</span><span>7 · 14 · 21 · 28 oct</span></div>
 </section>
 
 <section class="slide story s bg-brown grain light-grain" data-file="03-historia.png">
@@ -60,8 +61,9 @@
     <img class="iso" src="../../assets/brand/logos/isotipo-crema.png" alt="">
     <p class="label sm">Tienes una cita</p>
     <h2 class="serif">Un miércoles<br><em>de octubre.</em></h2>
-    <p class="who">Tú, tus manos<br>y un <em>momento</em><br>solo para ti.</p>
-    <p class="meta label sm">15% en todos los servicios · Con reserva<br>CC Montaña Plaza, local 4 · Cajicá</p>
+    <p class="who">y un momento solo para ti</p>
+    <div class="offer center"><p class="num">15<i>%</i></p><div class="what"><b>En todos<br>los servicios</b><span>es tu regalo</span></div></div>
+    <p class="meta label sm">Con reserva por WhatsApp · 311 566 2051<br>CC Montaña Plaza, local 4 · Cajicá</p>
   </div>
   <div class="cta"><p class="serif">Tu carta<br>para este mes.</p></div>
 </section>

@@ -19,3 +19,21 @@
 .serie::before { width: 14px; height: 14px; background: none; box-shadow: inset -5px 2px 0 0 currentColor; transform: rotate(-20deg); }
 
 .fine { color: rgba(247,239,231,.82); }
+
+/* ---------- La oferta como protagonista ----------
+   Bloque tipográfico "15%" en Aurora (el número manda) + qué incluye en Uncage.
+   --o controla el tamaño del número; el resto escala con él. */
+.offer { --o: 240px; display: flex; align-items: center; gap: calc(var(--o) * .11); color: var(--white-beach); }
+.offer .num { font-family: var(--serif); font-size: var(--o); line-height: .78; letter-spacing: -.055em; color: var(--white-beach); -webkit-text-stroke: 1.8px currentColor; white-space: nowrap; }
+.offer .num i { color: var(--rose); font-style: italic; font-size: .5em; letter-spacing: 0; vertical-align: .62em; margin-left: .04em; }
+.offer .what { display: flex; flex-direction: column; gap: calc(var(--o) * .045); padding-left: calc(var(--o) * .11); border-left: 2px solid rgba(206,186,170,.5); }
+.offer .what b { font-family: var(--label); text-transform: uppercase; font-weight: 700; letter-spacing: .2em; font-size: calc(var(--o) * .118); line-height: 1.3; }
+.offer .what span { font-family: var(--serif); font-style: italic; font-size: calc(var(--o) * .15); line-height: 1.1; color: rgba(247,239,231,.88); -webkit-text-stroke: .5px currentColor; }
+.offer.stack { flex-direction: column; align-items: flex-start; gap: calc(var(--o) * .1); }
+.offer.stack .what { padding-left: 0; border-left: 0; padding-top: calc(var(--o) * .08); border-top: 2px solid rgba(206,186,170,.5); }
+.offer.center { justify-content: center; }
+.offer.ink { color: var(--white-beach); }
+
+/* Botón sólido con la oferta (historias) */
+.pill.hot { background: var(--rose); color: var(--night) !important; border-color: var(--rose); font-weight: 700; }
+.pill.hot b { font-family: var(--serif); font-size: 1.9em; letter-spacing: -.02em; line-height: .6; font-weight: 400; text-transform: none; }

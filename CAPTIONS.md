@@ -9,9 +9,9 @@ Todos los captions en orden de publicación. Fuente: `piezas/<pieza>/copy.md`.
 
 ### Caption
 
-Octubre se pinta oscuro.
+15% en todos los servicios, todos los miércoles de octubre. 🖤
 
-Este mes, cada miércoles en Alma House tiene 15% en todos los servicios. Cereza negra, rojo casa, espresso… los tonos de la temporada, con calma y un café de por medio.
+Octubre se pinta oscuro en Alma House. Cereza negra, rojo casa, espresso… los tonos de la temporada, con calma y un café de por medio.
 
 Miércoles 7, 14, 21 y 28 de octubre. Solo con reserva.
 
@@ -28,16 +28,16 @@ Todos los miércoles de octubre: 15% en todos los servicios de Alma House. Reser
 
 ---
 
-## 02 · Así funciona tu miércoles
+## 02 · Así funciona tu 15%
 **Mié 7 oct · 8:00 a. m.**
 
 ### Caption
 
-Así funciona tu miércoles de octubre:
+Tu 15% en todos los servicios, en tres pasos:
 
 1. Escríbenos por WhatsApp al 311 566 2051.
 2. Elige tu miércoles: 7, 14, 21 o 28 de octubre.
-3. Ven y disfruta 15% en cualquier servicio de la casa.
+3. Ven por tu 15%, en cualquier servicio de la casa.
 
 Así de simple. Hoy es el primero.
 
@@ -56,9 +56,9 @@ CC Montaña Plaza, local 4 · Cajicá
 
 ### Caption
 
-Tienes una cita.
+Tienes una cita… y viene con 15% en todos los servicios.
 
-Un miércoles de octubre, tú, tus manos y un momento solo para ti. Sin afán, con un café, y con 15% en todos los servicios.
+Un miércoles de octubre, tú, tus manos y un momento solo para ti. Sin afán y con un café.
 
 Guárdala para tu miércoles, o envíasela a quien la necesita.
 
@@ -78,14 +78,14 @@ Tu cita de octubre: un miércoles, un momento para ti y 15% en todos los servici
 
 ### Caption
 
-Los tonos de octubre, para llegar lista a la noche del 31:
+Los tonos de octubre, con 15% en todos los servicios cada miércoles:
 
 Cereza negra: la reina de octubre.
 Rojo casa: el que nunca falla.
 Espresso: casi negro, para las que no quieren el de siempre.
 Negro con lunares: el guiño de temporada, sin disfraz.
 
-¿Cuál es el tuyo? Cuéntanos en comentarios y reserva tu miércoles con 15% en todos los servicios.
+¿Cuál es el tuyo para la noche del 31? Cuéntanos en comentarios y reserva tu miércoles con 15%.
 
 WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
@@ -103,9 +103,9 @@ Cereza negra, rojo casa, espresso o negro con lunares: los tonos de octubre, con
 
 ### Caption
 
-No necesitas disfraz. Solo tus uñas.
+Último día con 15% en todos los servicios. Hoy, miércoles 28.
 
-Hoy es el último miércoles de octubre con 15% en todos los servicios. Llega lista a la noche del 31: oscuras, rojas o con un guiño de lunares.
+No necesitas disfraz, solo tus uñas. Llega lista a la noche del 31: oscuras, rojas o con un guiño de lunares.
 
 Quedan los últimos cupos del día.
 
@@ -125,9 +125,9 @@ CC Montaña Plaza, local 4 · Cajicá
 
 ### Caption
 
-Hoy es miércoles.
+Hoy es miércoles: 15% en todos los servicios.
 
-¿Ya reservaste tu momento? Hoy tienes 15% en todos los servicios de Alma House.
+¿Ya reservaste tu momento?
 
 WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá

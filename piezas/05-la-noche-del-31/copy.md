@@ -7,9 +7,9 @@
 
 ## Caption
 
-No necesitas disfraz. Solo tus uñas.
+Último día con 15% en todos los servicios. Hoy, miércoles 28.
 
-Hoy es el último miércoles de octubre con 15% en todos los servicios. Llega lista a la noche del 31: oscuras, rojas o con un guiño de lunares.
+No necesitas disfraz, solo tus uñas. Llega lista a la noche del 31: oscuras, rojas o con un guiño de lunares.
 
 Quedan los últimos cupos del día.
 
@@ -26,7 +26,7 @@ CC Montaña Plaza, local 4 · Cajicá
 
 ## Texto alternativo
 
-- Post e historia: una mano con uñas negras de lunares blancos sumergida en una copa de agua. Sello "Miércoles de Octubre · 15% · último miércoles". Texto: "No necesitas disfraz. Solo tus uñas. El último miércoles con 15% en todos los servicios."
+- Post e historia: una mano con uñas negras de lunares blancos sumergida en una copa de agua. Sello "Miércoles de Octubre · 15% · último miércoles". Texto: "No necesitas disfraz. Solo tus uñas." En grande: "15%, último día en todo".
 
 ## Notas
 

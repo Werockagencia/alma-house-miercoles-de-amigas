@@ -7,9 +7,9 @@
 
 ## Caption
 
-Hoy es miércoles.
+Hoy es miércoles: 15% en todos los servicios.
 
-¿Ya reservaste tu momento? Hoy tienes 15% en todos los servicios de Alma House.
+¿Ya reservaste tu momento?
 
 WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
@@ -24,7 +24,7 @@ Hoy es miércoles: 15% en todos los servicios. Reserva por WhatsApp: 311 566 205
 
 ## Texto alternativo
 
-- Post e historia: fondo oscuro con el texto "Hoy es miércoles" en grande, foto en arco de una mano con uñas rojas y un blazer verde oliva, y el sello "Miércoles de Octubre · 15%". Pregunta: "¿Ya reservaste tu momento?"
+- Post e historia: fondo oscuro con el texto "Hoy es miércoles" en grande, foto en arco de una mano con uñas rojas y un blazer verde oliva, y en grande "15% en todos los servicios". Botón: "Reserva tu 15%".
 
 ## Notas
 

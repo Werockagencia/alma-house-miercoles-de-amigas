@@ -7,14 +7,14 @@
 
 ## Caption
 
-Los tonos de octubre, para llegar lista a la noche del 31:
+Los tonos de octubre, con 15% en todos los servicios cada miércoles:
 
 Cereza negra: la reina de octubre.
 Rojo casa: el que nunca falla.
 Espresso: casi negro, para las que no quieren el de siempre.
 Negro con lunares: el guiño de temporada, sin disfraz.
 
-¿Cuál es el tuyo? Cuéntanos en comentarios y reserva tu miércoles con 15% en todos los servicios.
+¿Cuál es el tuyo para la noche del 31? Cuéntanos en comentarios y reserva tu miércoles con 15%.
 
 WhatsApp: 311 566 2051
 CC Montaña Plaza, local 4 · Cajicá
@@ -29,7 +29,7 @@ Cereza negra, rojo casa, espresso o negro con lunares: los tonos de octubre, con
 
 ## Texto alternativo
 
-- Post: cuatro muestras de uña ilustradas (cereza negra, rojo, espresso y negro con lunares blancos) sobre fondo oscuro, junto a una foto de manos con uñas rojas sobre un libro. Texto: "Los tonos de octubre. Para llegar lista a la noche del 31."
+- Post: cuatro muestras de uña ilustradas (cereza negra, rojo, espresso y negro con lunares blancos) sobre fondo oscuro, junto a una foto de manos con uñas rojas sobre un libro. Texto: "Los tonos de octubre" y en grande "15% en todos los servicios, los miércoles de octubre".
 - Historia: la misma foto arriba y las cuatro muestras debajo.
 
 ## Notas

@@ -7,25 +7,27 @@
 <link rel="stylesheet" href="../../assets/css/miercoles.css">
 <link rel="stylesheet" href="../../assets/css/octubre.css">
 <style>
-  .big { font-family: var(--serif); font-size: 230px; line-height: .82; letter-spacing: -.04em; color: var(--white-beach); }
+  .big { font-family: var(--serif); font-size: 200px; line-height: .82; letter-spacing: -.04em; color: var(--white-beach); }
   .big em { color: var(--rose); }
-  .ask { font-family: var(--serif); font-style: italic; font-size: 54px; line-height: 1.12; color: rgba(247,239,231,.9); }
+  .ask { font-family: var(--serif); font-style: italic; font-size: 46px; line-height: 1.12; color: rgba(247,239,231,.9); -webkit-text-stroke: .6px currentColor; }
   .pic { position: absolute; overflow: hidden; border-radius: 240px 240px 14px 14px; }
   .pic img { width: 100%; height: 100%; object-fit: cover; }
 
-  .p .kick { position: absolute; left: 72px; top: 170px; color: var(--rose); }
-  .p .big { position: absolute; left: 66px; top: 230px; }
-  .p .pic { right: 72px; bottom: 140px; width: 420px; height: 600px; }
+  .p .kick { position: absolute; left: 72px; top: 160px; color: var(--rose); }
+  .p .big { position: absolute; left: 66px; top: 215px; }
+  .p .pic { right: 72px; bottom: 130px; width: 400px; height: 600px; }
   .p .pic img { object-position: 40% 50%; }
-  .p .ask { position: absolute; left: 72px; top: 820px; width: 470px; }
-  .p .seal { left: 72px; bottom: 120px; width: 240px; height: 240px; }
+  .p .offer { position: absolute; left: 72px; top: 610px; --o: 250px; }
+  .p .ask { position: absolute; left: 72px; top: 1120px; width: 460px; }
+  .p .seal { left: 500px; top: 560px; width: 200px; height: 200px; }
 
-  .s .kick { position: absolute; left: 72px; top: 300px; color: var(--rose); }
-  .s .big { position: absolute; left: 66px; top: 370px; font-size: 218px; }
-  .s .pic { left: 72px; right: 72px; top: 880px; height: 520px; border-radius: 260px 260px 14px 14px; }
+  .s .kick { position: absolute; left: 72px; top: 290px; color: var(--rose); }
+  .s .big { position: absolute; left: 66px; top: 350px; font-size: 196px; }
+  .s .offer { position: absolute; left: 72px; top: 730px; --o: 270px; }
+  .s .pic { left: 72px; right: 72px; top: 1010px; height: 440px; border-radius: 240px 240px 14px 14px; }
   .s .pic img { object-position: 50% 35%; }
-  .s .ask { position: absolute; left: 72px; right: 360px; top: 1450px; }
-  .s .seal { right: 64px; top: 1360px; width: 250px; height: 250px; }
+  .s .seal { right: 54px; top: 930px; width: 210px; height: 210px; }
+  .s .cta { position: absolute; left: 72px; top: 1500px; z-index: 6; }
 </style>
 </head>
 <body>
@@ -34,18 +36,20 @@
   <div class="masthead label" style="color:var(--rose)"><span class="serie">Miércoles de Octubre</span><span class="rule"></span><span>Alma House</span></div>
   <p class="label kick">Recordatorio de la casa</p>
   <p class="big">Hoy es<br><em>miércoles.</em></p>
+  <div class="offer stack"><p class="num">15<i>%</i></p><div class="what"><b>En todos<br>los servicios</b><span>solo hoy, miércoles</span></div></div>
   <p class="ask">¿Ya reservaste tu momento?</p>
   <div class="pic grade"><img src="../../assets/photos/octubre-rojo-blazer.jpg" alt=""></div>
-  <div class="seal night"></div>
+  <div class="seal spin night"></div>
 </section>
 
 <section class="slide story s bg-night grain light-grain" data-file="06-historia.png">
   <div class="masthead label sm" style="color:var(--rose)"><span class="serie">Miércoles de Octubre</span><span class="rule"></span><span>Alma House</span></div>
   <p class="label kick">Recordatorio de la casa</p>
   <p class="big">Hoy es<br><em>miércoles.</em></p>
+  <div class="offer"><p class="num">15<i>%</i></p><div class="what"><b>En todos<br>los servicios</b><span>¿ya reservaste?</span></div></div>
   <div class="pic grade"><img src="../../assets/photos/octubre-rojo-blazer.jpg" alt=""></div>
-  <p class="ask">¿Ya reservaste tu momento?</p>
-  <div class="seal night"></div>
+  <div class="seal spin night"></div>
+  <p class="cta label pill hot">Reserva tu 15% · WhatsApp 311 566 2051</p>
 </section>
 
 <script src="../../assets/js/seal.js"></script>

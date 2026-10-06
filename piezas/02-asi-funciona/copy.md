@@ -7,11 +7,11 @@
 
 ## Caption
 
-Así funciona tu miércoles de octubre:
+Tu 15% en todos los servicios, en tres pasos:
 
 1. Escríbenos por WhatsApp al 311 566 2051.
 2. Elige tu miércoles: 7, 14, 21 o 28 de octubre.
-3. Ven y disfruta 15% en cualquier servicio de la casa.
+3. Ven por tu 15%, en cualquier servicio de la casa.
 
 Así de simple. Hoy es el primero.
 
@@ -27,7 +27,7 @@ CC Montaña Plaza, local 4 · Cajicá
 
 ## Texto alternativo
 
-- Post: columna con una mano de uñas rojo cereza junto al rostro. Texto: "Así funciona tu miércoles. 1. Escríbenos. 2. Elige tu miércoles: 7, 14, 21 o 28 de octubre. 3. 15% en todo, en cualquier servicio de la casa." Sello "Miércoles de Octubre · 15%".
+- Post: columna con una mano de uñas rojo cereza junto al rostro. Texto: "Así funciona tu miércoles", en grande "15% en todos los servicios" y los pasos: 1. Escríbenos. 2. Elige tu miércoles: 7, 14, 21 o 28 de octubre. 3. Ven por tu 15%. Sello "Miércoles de Octubre · 15%".
 - Historia: la misma foto arriba y los tres pasos debajo.
 
 ## Notas
