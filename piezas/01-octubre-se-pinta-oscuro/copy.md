@@ -28,7 +28,7 @@ Todos los miércoles de octubre: 15% en todos los servicios de Alma House. Reser
 
 ## Texto alternativo
 
-- Post e historia: una mujer de espaldas se cubre el cabello con las dos manos; uñas largas rojo cereza y anillos dorados. Sello "Miércoles de Octubre · 15% en todo". Texto: "Octubre se pinta oscuro." y en grande: "15% en todos los servicios, cada miércoles de octubre".
+- Post e historia: una mano con guante negro y uñas largas burdeos sostiene un café para llevar, un labial y una pulsera de perlas. Sello "Miércoles de Octubre · 15% en todo". Texto: "Octubre se pinta oscuro." y en grande: "15% en todos los servicios, cada miércoles de octubre".
 
 ## Notas
 

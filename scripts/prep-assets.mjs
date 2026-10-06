@@ -8,9 +8,9 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const PIN_SRC = path.join(ROOT, 'assets', 'pinterest');
 const OUT = path.join(ROOT, 'assets', 'photos');
 
-// crop: recorte en px sobre el original (pin-44 trae un texto de tienda abajo que se quita)
+// crop: recorte opcional en px sobre el original
 const photos = {
-  'pin-44.jpg': { out: 'octubre-manos-cabello.jpg', crop: { left: 0, top: 0, width: 1008, height: 1330 } },
+  'pin-31-limpio.jpg': { out: 'octubre-cafe-guante.jpg' },   // pin-31 sin el texto de marca del tubo (scripts/retoque-pin31.mjs)
   'pin-38.jpg': { out: 'octubre-as-de-corazones.jpg' },   // 1440×1920 (reemplaza al pin-54, que solo medía 736 px)
   'pin-47.jpg': { out: 'octubre-as-de-picas.jpg' },
   'pin-50.jpg': { out: 'octubre-lunares-copa.jpg' },
