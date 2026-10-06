@@ -11,7 +11,7 @@ const OUT = path.join(ROOT, 'assets', 'photos');
 // crop: recorte en px sobre el original (pin-44 trae un texto de tienda abajo que se quita)
 const photos = {
   'pin-44.jpg': { out: 'octubre-manos-cabello.jpg', crop: { left: 0, top: 0, width: 1008, height: 1330 } },
-  'pin-54.jpg': { out: 'octubre-cereza-rostro.jpg' },
+  'pin-38.jpg': { out: 'octubre-as-de-corazones.jpg' },   // 1440×1920 (reemplaza al pin-54, que solo medía 736 px)
   'pin-47.jpg': { out: 'octubre-as-de-picas.jpg' },
   'pin-50.jpg': { out: 'octubre-lunares-copa.jpg' },
   'pin-02.jpg': { out: 'octubre-rojo-libro.jpg' },

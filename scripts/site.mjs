@@ -48,7 +48,7 @@ await mkdir(path.join(ROOT, 'web'), { recursive: true });
 const web = async (src, name, flatten) => {
   let img = sharp(src);
   if (flatten) img = img.flatten({ background: flatten });
-  await img.resize({ width: 720, withoutEnlargement: true }).jpeg({ quality: 82, mozjpeg: true }).toFile(path.join(ROOT, 'web', name));
+  await img.resize({ width: 1080, withoutEnlargement: true }).jpeg({ quality: 88, chromaSubsampling: '4:4:4', mozjpeg: true }).toFile(path.join(ROOT, 'web', name));
   return `web/${name}`;
 };
 

@@ -48,7 +48,7 @@ Los posts regulares de martes y jueves siguen su calendario; estas piezas ocupan
 ## Sistema visual
 
 - `assets/css/alma.css` (tokens de marca) + `miercoles.css` (sello y legibilidad, heredados de Amigas) + `octubre.css` (versión nocturna).
-- Fotos: tablero de Pinterest de la cliente (pines 44, 54, 47, 50, 02 y 01). Al pin 44 se le recorta un texto de tienda que traía abajo.
+- Fotos: tablero de Pinterest de la cliente (pines 44, 38, 47, 50, 02 y 01, todos a resolución nativa o mayor; revisar con `node scripts/resolucion.mjs`). Al pin 44 se le recorta un texto de tienda que traía abajo.
 
 ## Derechos
 

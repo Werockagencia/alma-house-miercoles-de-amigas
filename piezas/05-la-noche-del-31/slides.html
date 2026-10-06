@@ -15,11 +15,14 @@
   .t .offer { margin-top: 40px; }
   .bot { position: absolute; inset: auto 0 0 0; height: 920px; z-index: 3; background: linear-gradient(0deg, rgba(28,20,17,.95) 50%, rgba(28,20,17,0)); }
 
+  .photo.framed { inset: auto; left: 60px; right: 60px; border-radius: 4px; }
+  .p .photo { top: 60px; height: 780px; }
   .p .photo img { object-position: 50% 18%; }
   .p .t { bottom: 120px; }
   .p .offer { --o: 220px; }
   .p .seal { right: 60px; top: 140px; width: 280px; height: 280px; }
 
+  .s .photo { top: 220px; height: 1020px; }
   .s .photo img { object-position: 50% 22%; }
   .s .bot { height: 1260px; }
   .s .t { top: 860px; }
@@ -32,7 +35,7 @@
 <body>
 
 <section class="slide p bg-night grain light-grain" data-file="05-post.png">
-  <div class="photo grade"><img src="../../assets/photos/octubre-lunares-copa.jpg" alt=""></div>
+  <div class="photo framed grade"><img src="../../assets/photos/octubre-lunares-copa.jpg" alt=""></div>
   <div class="bot"></div>
   <div class="masthead label" style="color:var(--white-beach)"><span class="serie">Miércoles de Octubre</span><span class="rule"></span><span>Alma House</span></div>
   <div class="seal spin night" data-sub="último miércoles"></div>
@@ -45,7 +48,7 @@
 </section>
 
 <section class="slide story s bg-night grain light-grain" data-file="05-historia.png">
-  <div class="photo grade"><img src="../../assets/photos/octubre-lunares-copa.jpg" alt=""></div>
+  <div class="photo framed grade"><img src="../../assets/photos/octubre-lunares-copa.jpg" alt=""></div>
   <div class="bot"></div>
   <div class="masthead label sm" style="color:var(--white-beach)"><span class="serie">Miércoles de Octubre</span><span class="rule"></span><span>Alma House</span></div>
   <div class="seal spin night" data-sub="último miércoles"></div>
